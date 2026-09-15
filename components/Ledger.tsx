@@ -53,18 +53,39 @@ export function Ledger({ items }: { items: Prediction[] }) {
   }, [items, filtered]);
   const max = Math.max(...decades.map((d) => d.total), 1);
 
+  function jump(label: string) {
+    const el = document.getElementById(`decade-${label}`);
+    if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
+  }
+
+  let lastDecade = "";
+
   return (
     <>
-      <div className="decades" aria-hidden>
+      <div className="decades">
         {decades.map((d) => (
-          <div key={d.label} className={`bar ${d.shown ? "active" : ""}`} title={`${d.label}: ${d.total}`}>
+          <button
+            key={d.label}
+            type="button"
+            className={`bar ${d.shown ? "active" : ""}`}
+            title={d.shown ? `${d.label}: ${d.total} entries` : `${d.label}: none shown`}
+            disabled={!d.shown}
+            onClick={() => jump(d.label)}
+          >
             <i style={{ height: `${(d.total / max) * 100}%` }} />
-          </div>
+          </button>
         ))}
       </div>
       <div className="decade-labels">
         {decades.map((d) => (
-          <span key={d.label}>{d.label.slice(0, 4)}</span>
+          <button
+            key={d.label}
+            type="button"
+            disabled={!d.shown}
+            onClick={() => jump(d.label)}
+          >
+            {d.label.slice(0, 4)}
+          </button>
         ))}
       </div>
 
@@ -107,7 +128,17 @@ export function Ledger({ items }: { items: Prediction[] }) {
       {filtered.length === 0 ? (
         <p className="empty">Nothing matches.</p>
       ) : (
-        filtered.map((p) => <Entry key={p.id} p={p} />)
+        filtered.map((p) => {
+          const dec = decade(p.made);
+          const first = dec !== lastDecade;
+          lastDecade = dec;
+          return (
+            <div key={p.id} id={first ? `decade-${dec}` : undefined} className={first ? "decade-start" : undefined}>
+              {first && <div className="decade-marker">{dec}</div>}
+              <Entry p={p} />
+            </div>
+          );
+        })
       )}
     </>
   );

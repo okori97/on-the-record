@@ -74,11 +74,18 @@ a:hover { text-decoration-color: var(--fg); }
 
 /* Decade strip */
 .decades { display: flex; gap: 2px; align-items: flex-end; height: 44px; margin: 28px 0 8px; }
-.decades .bar { flex: 1; display: flex; flex-direction: column; justify-content: flex-end; align-items: center; height: 100%; }
-.decades .bar i { display: block; width: 100%; background: var(--rule); border-radius: 1px; }
+.decades .bar { flex: 1; display: flex; flex-direction: column; justify-content: flex-end; align-items: center; height: 100%; background: none; border: 0; padding: 0; cursor: pointer; }
+.decades .bar:disabled { cursor: default; }
+.decades .bar i { display: block; width: 100%; background: var(--rule); border-radius: 1px; transition: background 120ms; }
 .decades .bar.active i { background: var(--faint); }
-.decade-labels { display: flex; gap: 2px; font-family: var(--mono); font-size: 9px; letter-spacing: -0.02em; color: var(--faint); margin-bottom: 24px; }
-.decade-labels span { flex: 1; text-align: center; }
+.decades .bar.active:hover i { background: var(--muted); }
+.decade-labels { display: flex; gap: 2px; margin-bottom: 24px; }
+.decade-labels button { flex: 1; text-align: center; font-family: var(--mono); font-size: 9px; letter-spacing: -0.02em; color: var(--faint); background: none; border: 0; padding: 2px 0; cursor: pointer; }
+.decade-labels button:disabled { cursor: default; opacity: 0.5; }
+.decade-labels button:not(:disabled):hover { color: var(--fg); text-decoration: underline; text-underline-offset: 3px; }
+.decade-start { scroll-margin-top: 72px; }
+.decade-marker { font-family: var(--mono); font-size: 11px; letter-spacing: 0.08em; color: var(--faint); padding: 28px 0 0; }
+.decade-marker + .entry { padding-top: 12px; }
 
 /* Filters */
 .filters { position: sticky; top: 0; background: var(--bg); padding: 12px 0; border-bottom: 1px solid var(--rule); margin-bottom: 8px; z-index: 2; display: flex; flex-wrap: wrap; gap: 6px 14px; font-size: 13px; align-items: center; }
