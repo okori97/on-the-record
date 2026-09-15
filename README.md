@@ -1,5 +1,7 @@
 # On the Record
 
+Live: https://on-the-record-wine.vercel.app
+
 A public ledger of dated, attributable predictions and how they resolved. Working title.
 
 ## Why
