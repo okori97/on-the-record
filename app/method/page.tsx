@@ -101,7 +101,7 @@ export default function Method() {
       <h2>Contribute</h2>
       <p>
         The data is a single JSON file with a schema, in the{" "}
-        <a href="https://github.com/okori-valarian/on-the-record" rel="noreferrer">public repository</a>. New entries arrive as pull requests marked needs
+        <a href="https://github.com/okori97/on-the-record" rel="noreferrer">public repository</a>. New entries arrive as pull requests marked needs
         verification, with a source URL. A maintainer opens the source before
         anything is published.
       </p>

@@ -27,7 +27,7 @@ export default function RootLayout({
           </Link>
           <nav>
             <Link href="/method">Method</Link>
-            <a href="https://github.com/okori-valarian/on-the-record" rel="noreferrer">GitHub</a>
+            <a href="https://github.com/okori97/on-the-record" rel="noreferrer">GitHub</a>
             <a href="/data">JSON</a>
           </nav>
         </header>
@@ -37,7 +37,7 @@ export default function RootLayout({
             Every entry is quoted verbatim from a source a maintainer has
             opened. Corrections are logged publicly. If you can improve a
             source or think an entry is wrong,{" "}
-            <a href="https://github.com/okori-valarian/on-the-record/issues" rel="noreferrer">open an issue</a>.
+            <a href="https://github.com/okori97/on-the-record/issues" rel="noreferrer">open an issue</a>.
           </p>
         </footer>
       </body>
