@@ -1999,7 +1999,7 @@
       "url": "https://money.cnn.com/2017/09/12/investing/jamie-dimon-bitcoin",
       "archive_url": "https://www.cnbc.com/2017/09/12/jpmorgan-ceo-jamie-dimon-raises-flag-on-trading-revenue-sees-20-percent-fall-for-the-third-quarter.html",
       "type": "contemporaneous-report",
-      "note": "Both outlets blocked automated fetching; open one to confirm wording."
+      "note": "CNN Money report checked by maintainer."
     },
     "deadline": {
       "stated": false,
@@ -2015,7 +2015,7 @@
       "resolved_date": "2026"
     },
     "confidence_expressed": "it won't end well",
-    "status": "needs-verification",
+    "status": "verified",
     "added": "2026-09-15",
     "last_reviewed": "2026-09-15"
   },
