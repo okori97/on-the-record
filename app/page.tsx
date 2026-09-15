@@ -19,7 +19,7 @@ export default function Home() {
           from a source the maintainer has opened. Nothing is paraphrased.
         </p>
         <p>
-          {published.length} entries from {published[0].made.slice(0, 4)} to{" "}
+          {published.length} entries, {published[0].made.slice(0, 4)} back to{" "}
           {published[published.length - 1].made.slice(0, 4)}:{" "}
           {counts.wrong ?? 0} wrong, {counts.right ?? 0} right,{" "}
           {counts["partially-right"] ?? 0} partially right,{" "}

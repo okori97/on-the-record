@@ -52,13 +52,14 @@ export interface Prediction {
 
 export const predictions = raw as Prediction[];
 
+// Newest first.
 export const published = predictions
   .filter((p) => p.status === "verified")
-  .sort((a, b) => a.made.localeCompare(b.made));
+  .sort((a, b) => b.made.localeCompare(a.made));
 
 export const rejected = predictions
   .filter((p) => p.status === "rejected")
-  .sort((a, b) => a.made.localeCompare(b.made));
+  .sort((a, b) => b.made.localeCompare(a.made));
 
 export const VERDICT_LABEL: Record<Verdict, string> = {
   wrong: "Wrong",

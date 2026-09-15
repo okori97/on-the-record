@@ -38,8 +38,9 @@ export function Ledger({ items }: { items: Prediction[] }) {
 
   const decades = useMemo(() => {
     const all = items.map((p) => decade(p.made));
-    const first = parseInt(all[0], 10);
-    const last = parseInt(all[all.length - 1], 10);
+    const years = all.map((x) => parseInt(x, 10));
+    const first = Math.min(...years);
+    const last = Math.max(...years);
     const out: { label: string; total: number; shown: number }[] = [];
     for (let d = first; d <= last; d += 10) {
       const label = `${d}s`;
