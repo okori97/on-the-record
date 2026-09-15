@@ -1906,7 +1906,7 @@
   },
   {
     "id": "krugman-2016-markets-never-recover",
-    "claim": "It really does now look like President Donald J. Trump, and markets are plunging. When might we expect them to recover? [...] If the question is when markets will recover, a first-pass answer is never.",
+    "claim": "It really does now look like President Donald J. Trump, and markets are plunging. When might we expect them to recover? Frankly, I find it hard to care much, even though this is my specialty. [...] Still, I guess people want an answer: If the question is when markets will recover, a first-pass answer is never.",
     "context": "Blog post 'The Economic Fallout' on election night. Krugman wrote the next day that he was having second thoughts about the short-run call.",
     "predictor": {
       "name": "Paul Krugman",
@@ -1920,7 +1920,7 @@
     "source": {
       "url": "https://www.nytimes.com/interactive/projects/cp/opinion/election-night-2016/paul-krugman-the-economic-fallout",
       "type": "primary",
-      "note": "NYT blocks automated fetching. Wording from multiple same-week reports; open the original to confirm."
+      "note": "Text checked by maintainer."
     },
     "deadline": {
       "stated": false
@@ -1937,7 +1937,7 @@
       "source_url": "https://fred.stlouisfed.org/series/SP500"
     },
     "confidence_expressed": "a first-pass answer is never",
-    "status": "needs-verification",
+    "status": "verified",
     "notes": "Withdrawn by the predictor within a day. Included because it was published under his name with an absolute claim.",
     "added": "2026-09-15",
     "last_reviewed": "2026-09-15"
@@ -2059,8 +2059,8 @@
   },
   {
     "id": "lutz-2017-tesla-out-of-business",
-    "claim": "Tesla is going out of business. [...] At this rate they'll never get to 2019.",
-    "context": "Television interview.",
+    "claim": "At this rate they'll never get to 2019.",
+    "context": "Television interview. CNBC's report headlined the remark as Tesla 'going out of business'; only the quoted sentence is scored.",
     "predictor": {
       "name": "Bob Lutz",
       "role_at_time": "Former Vice Chairman, General Motors",
@@ -2074,7 +2074,7 @@
       "url": "https://www.cnbc.com/2017/11/17/tesla-is-going-out-of-business-says-former-gm-exec-bob-lutz.html",
       "archive_url": "https://www.motorauthority.com/news/1113916_bob-lutz-tesla-is-going-out-of-business",
       "type": "contemporaneous-report",
-      "note": "Both pages blocked automated fetching; open to confirm wording."
+      "note": "Text checked by maintainer."
     },
     "deadline": {
       "stated": true,
@@ -2092,7 +2092,7 @@
       "source_url": "https://ir.tesla.com/press-release/tesla-q4-2019-vehicle-production-deliveries"
     },
     "confidence_expressed": "going out of business",
-    "status": "needs-verification",
+    "status": "verified",
     "added": "2026-09-15",
     "last_reviewed": "2026-09-15"
   },
@@ -2191,7 +2191,7 @@
       "url": "https://x.com/elonmusk/status/1240754657263144960",
       "archive_url": "https://www.forbes.com/sites/joewalsh/2021/03/13/elon-musks-false-covid-predictions-a-timeline/",
       "type": "social-post",
-      "note": "X blocks automated fetching. Open the post to confirm wording and add a Wayback snapshot."
+      "note": "Post text and timestamp (9:38 PM, 19 Mar 2020) checked by maintainer. Add a Wayback snapshot."
     },
     "deadline": {
       "stated": true,
@@ -2209,7 +2209,7 @@
       "source_url": "https://covid.cdc.gov/covid-data-tracker/"
     },
     "confidence_expressed": "probably",
-    "status": "needs-verification",
+    "status": "verified",
     "added": "2026-09-15",
     "last_reviewed": "2026-09-15"
   },
@@ -2294,7 +2294,7 @@
   },
   {
     "id": "zuckerberg-2022-billion-metaverse",
-    "claim": "Our Northstar is that, you know, by the end of the decade, we hope to basically get to around a billion people in the metaverse doing hundreds of dollars of commerce each.",
+    "claim": "Our Northstar is that, you know, by the end of the decade, we hope to basically get to around a billion people in the Metaverse doing hundreds of dollars of commerce each buying digital goods, digital content, different things to express themselves.",
     "context": "Interview with Jim Cramer on Mad Money.",
     "predictor": {
       "name": "Mark Zuckerberg",
@@ -2308,7 +2308,7 @@
     "source": {
       "url": "https://www.cnbc.com/2022/06/22/cnbc-exclusive-cnbc-transcript-meta-founder-chairman-ceo-mark-zuckerberg-speaks-with-cnbcs-jim-cramer-on-mad-money-today.html",
       "type": "primary",
-      "note": "CNBC transcript; blocked automated fetching. Open to confirm wording."
+      "note": "CNBC transcript checked by maintainer."
     },
     "deadline": {
       "stated": true,
@@ -2321,7 +2321,7 @@
     ],
     "verdict": "not-yet-due",
     "confidence_expressed": "we hope to",
-    "status": "needs-verification",
+    "status": "verified",
     "notes": "Meta's Reality Labs division lost more than $60bn between 2020 and 2024. Scoring needs a defined measure of 'people in the metaverse'.",
     "added": "2026-09-15",
     "last_reviewed": "2026-09-15"
@@ -2407,7 +2407,7 @@
   },
   {
     "id": "srinivasan-2023-bitcoin-90-days",
-    "claim": "I will take that bet. You buy 1 BTC. I will send $1M USD. This is ~40:1 odds as 1 BTC is worth ~$26k. The term is 90 days.",
+    "claim": "I will take that bet. You buy 1 BTC. I will send $1M USD. This is ~40:1 odds as 1 BTC is worth ~$26k. The term is 90 days. All we need is a mutually agreed custodian who will still be there to settle this in the event of digital dollar devaluation.",
     "context": "Reply accepting a wager from James Medlock, who had offered to bet $1m that the US would not enter hyperinflation. Srinivasan argued a banking crisis would push bitcoin to $1m within 90 days.",
     "predictor": {
       "name": "Balaji Srinivasan",
@@ -2423,7 +2423,7 @@
       "url": "https://x.com/balajis/status/1636797265317867520",
       "archive_url": "https://www.theblock.co/post/229254/balaji-loses-1-million-bitcoin-bet-as-u-s-dollar-fails-to-collapse",
       "type": "social-post",
-      "note": "X blocks automated fetching; wording to confirm from the post or a Wayback snapshot."
+      "note": "Post text checked by maintainer. Add a Wayback snapshot."
     },
     "deadline": {
       "stated": true,
@@ -2443,7 +2443,7 @@
       "source_url": "https://www.theblock.co/post/229254/balaji-loses-1-million-bitcoin-bet-as-u-s-dollar-fails-to-collapse"
     },
     "confidence_expressed": "$1m wager at 40:1",
-    "status": "needs-verification",
+    "status": "verified",
     "added": "2026-09-15",
     "last_reviewed": "2026-09-15"
   },
@@ -2520,8 +2520,8 @@
   },
   {
     "id": "hinton-2024-extinction-odds",
-    "claim": "10 to 20 per cent.",
-    "context": "Answer on BBC Radio 4's Today programme when guest editor Sajid Javid asked whether he had changed his estimate of the chance that AI leads to human extinction within 30 years. Hinton had previously said 10%.",
+    "claim": "Not really, 10% to 20%.",
+    "context": "Answer on BBC Radio 4's Today programme when asked whether he had changed his earlier analysis of a one-in-ten chance of an AI apocalypse within the next 30 years.",
     "predictor": {
       "name": "Geoffrey Hinton",
       "role_at_time": "Professor Emeritus, University of Toronto; Nobel laureate in physics 2024",
@@ -2535,7 +2535,7 @@
       "url": "https://www.theguardian.com/technology/2024/dec/27/godfather-of-ai-raises-odds-of-the-technology-wiping-out-humanity-over-next-30-years",
       "archive_url": "https://www.bbc.co.uk/sounds/play/m0026gt0",
       "type": "contemporaneous-report",
-      "note": "Guardian blocked automated fetching; open to confirm wording. BBC Sounds episode is the primary."
+      "note": "Guardian report checked by maintainer. BBC Sounds episode is the primary."
     },
     "deadline": {
       "stated": true,
@@ -2552,7 +2552,7 @@
       "summary": "An extinction probability cannot be scored from one outcome. Recorded alongside Ord (2020) as the source of the widely reported '10 to 20%' figure."
     },
     "confidence_expressed": "10 to 20 per cent",
-    "status": "needs-verification",
+    "status": "verified",
     "added": "2026-09-15",
     "last_reviewed": "2026-09-15"
   },
