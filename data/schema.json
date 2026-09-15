@@ -1,0 +1,212 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Prediction",
+  "description": "One public, dated, attributable prediction and how it resolved.",
+  "type": "object",
+  "required": [
+    "id",
+    "claim",
+    "predictor",
+    "made",
+    "source",
+    "deadline",
+    "verdict",
+    "domain",
+    "status"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$",
+      "description": "Stable slug, e.g. olsen-1977-home-computer"
+    },
+    "claim": {
+      "type": "string",
+      "description": "Verbatim quote. Ellipses allowed for trimming, no paraphrase."
+    },
+    "claim_language": {
+      "type": "string",
+      "default": "en"
+    },
+    "context": {
+      "type": "string",
+      "description": "One or two neutral sentences on the setting. No adjectives."
+    },
+    "predictor": {
+      "type": "object",
+      "required": [
+        "name",
+        "role_at_time",
+        "standing"
+      ],
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "role_at_time": {
+          "type": "string",
+          "description": "What they were when they said it, e.g. 'President, Digital Equipment Corporation'"
+        },
+        "expertise_domain": {
+          "type": "string",
+          "description": "The field they had a track record in, if any"
+        },
+        "speaking_in_own_field": {
+          "type": "boolean",
+          "description": "Was the prediction inside their area of demonstrated expertise?"
+        },
+        "standing": {
+          "type": "string",
+          "enum": [
+            "practitioner",
+            "researcher",
+            "official",
+            "commentator",
+            "publication"
+          ],
+          "description": "Why anyone listened. practitioner: founder, executive or builder in the domain. researcher: academic or scientist with a publication record. official: elected or appointed public role. commentator: journalist, author, investor or broadcaster with a public audience. publication: an unsigned editorial voice."
+        },
+        "audience_at_time": {
+          "type": "string",
+          "description": "Evidence of reach when the claim was made, e.g. follower count, circulation, office held. Required for social-post sources."
+        }
+      }
+    },
+    "made": {
+      "type": "string",
+      "format": "date",
+      "description": "ISO date. Use YYYY or YYYY-MM if day unknown."
+    },
+    "venue": {
+      "type": "string",
+      "description": "Where it was said: publication, conference, broadcast"
+    },
+    "source": {
+      "type": "object",
+      "required": [
+        "url",
+        "type"
+      ],
+      "properties": {
+        "url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "archive_url": {
+          "type": "string",
+          "format": "uri",
+          "description": "Wayback Machine or similar snapshot"
+        },
+        "type": {
+          "type": "string",
+          "enum": [
+            "primary",
+            "contemporaneous-report",
+            "secondary",
+            "social-post"
+          ]
+        },
+        "note": {
+          "type": "string"
+        }
+      },
+      "description": "For type social-post, archive_url is required."
+    },
+    "deadline": {
+      "type": "object",
+      "required": [
+        "stated"
+      ],
+      "properties": {
+        "stated": {
+          "type": "boolean",
+          "description": "Did the predictor give a date or horizon?"
+        },
+        "date": {
+          "type": "string",
+          "description": "ISO date or year if stated"
+        },
+        "text": {
+          "type": "string",
+          "description": "The predictor's own words for the horizon, e.g. 'within ten years'"
+        }
+      }
+    },
+    "domain": {
+      "type": "string",
+      "enum": [
+        "technology",
+        "economics",
+        "medicine",
+        "energy",
+        "demographics",
+        "geopolitics",
+        "science",
+        "climate",
+        "ai",
+        "other"
+      ]
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "verdict": {
+      "type": "string",
+      "enum": [
+        "wrong",
+        "right",
+        "partially-right",
+        "unfalsifiable",
+        "not-yet-due",
+        "unresolved"
+      ]
+    },
+    "resolution": {
+      "type": "object",
+      "properties": {
+        "summary": {
+          "type": "string",
+          "description": "What actually happened, neutrally stated"
+        },
+        "resolved_date": {
+          "type": "string"
+        },
+        "source_url": {
+          "type": "string",
+          "format": "uri"
+        }
+      }
+    },
+    "confidence_expressed": {
+      "type": "string",
+      "description": "Predictor's own certainty language, e.g. 'no reason', 'will certainly', '10%'"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "verified",
+        "needs-verification",
+        "rejected"
+      ],
+      "description": "Editorial status. Only 'verified' entries are published."
+    },
+    "rejection_reason": {
+      "type": "string",
+      "description": "If rejected: misattributed, unverifiable, out of context, joke, private remark"
+    },
+    "notes": {
+      "type": "string"
+    },
+    "added": {
+      "type": "string",
+      "format": "date"
+    },
+    "last_reviewed": {
+      "type": "string",
+      "format": "date"
+    }
+  }
+}

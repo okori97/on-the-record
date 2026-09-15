@@ -1,0 +1,1788 @@
+[
+  {
+    "id": "kelvin-1896-aerial-navigation",
+    "claim": "I have not the smallest molecule of faith in aerial navigation other than ballooning or of expectation of good results from any of the trials we hear of.",
+    "context": "Letter declining to join the Aeronautical Society, addressed to Major Baden Baden-Powell.",
+    "predictor": {
+      "name": "William Thomson, Lord Kelvin",
+      "role_at_time": "Physicist; President of the Royal Society 1890-95",
+      "expertise_domain": "Physics",
+      "speaking_in_own_field": false,
+      "standing": "researcher"
+    },
+    "made": "1896-12-08",
+    "venue": "Private letter, later published",
+    "source": {
+      "url": "https://zapatopi.net/kelvin/papers/letters.html/interview_aeronautics_and_wireless.html",
+      "type": "primary",
+      "note": "Image of handwritten original; also reproduced in J. Laurence Pritchard, Journal of the Royal Aeronautical Society 60 (1956), pp. 13-14."
+    },
+    "deadline": {
+      "stated": false
+    },
+    "domain": "technology",
+    "tags": [
+      "aviation",
+      "impossibility"
+    ],
+    "verdict": "wrong",
+    "resolution": {
+      "summary": "The Wright brothers made the first controlled, powered heavier-than-air flight on 17 December 1903.",
+      "resolved_date": "1903-12-17",
+      "source_url": "https://airandspace.si.edu/explore/stories/1903-wright-flyer"
+    },
+    "confidence_expressed": "not the smallest molecule of faith",
+    "status": "verified",
+    "notes": "The widely circulated 'Heavier-than-air flying machines are impossible (1895)' has no primary source and is listed under rejected entries. This letter is the documented version.",
+    "added": "2026-09-15",
+    "last_reviewed": "2026-09-15"
+  },
+  {
+    "id": "fisher-1929-permanently-high-plateau",
+    "claim": "Stock prices have reached what looks like a permanently high plateau.",
+    "context": "Remarks at the monthly dinner of the Purchasing Agents Association, New York, reported the next day by the New York Times.",
+    "predictor": {
+      "name": "Irving Fisher",
+      "role_at_time": "Professor of Economics, Yale University",
+      "expertise_domain": "Economics",
+      "speaking_in_own_field": true,
+      "standing": "researcher"
+    },
+    "made": "1929-10-15",
+    "venue": "Purchasing Agents Association dinner, New York",
+    "source": {
+      "url": "https://www.nytimes.com/1929/10/16/archives/fisher-sees-stocks-permanently-high-yale-economist-tells-purchasing.html",
+      "type": "contemporaneous-report",
+      "note": "New York Times, 16 Oct 1929, p.8, 'Fisher Sees Stocks Permanently High'. ProQuest docview 104696595. Reproduced in Duckenfield (ed.), Routledge, 2024."
+    },
+    "deadline": {
+      "stated": true,
+      "text": "within a few months",
+      "date": "1930"
+    },
+    "domain": "economics",
+    "tags": [
+      "stock-market",
+      "1929-crash"
+    ],
+    "verdict": "wrong",
+    "resolution": {
+      "summary": "The market crashed on 28-29 October 1929. The Dow fell roughly 89% from its 1929 peak to its 1932 low.",
+      "resolved_date": "1929-10-29",
+      "source_url": "https://www.federalreservehistory.org/essays/stock-market-crash-of-1929"
+    },
+    "confidence_expressed": "what looks like a permanently high plateau",
+    "status": "verified",
+    "added": "2026-09-15",
+    "last_reviewed": "2026-09-15"
+  },
+  {
+    "id": "keynes-1930-grandchildren",
+    "claim": "I would predict that the standard of life in progressive countries one hundred years hence will be between four and eight times as high as it is to-day. [...] Three-hour shifts or a fifteen-hour week may put off the problem for a great while.",
+    "context": "Essay 'Economic Possibilities for our Grandchildren', first published in The Nation and Athenaeum, later in Essays in Persuasion.",
+    "predictor": {
+      "name": "John Maynard Keynes",
+      "role_at_time": "Economist, Cambridge",
+      "expertise_domain": "Economics",
+      "speaking_in_own_field": true,
+      "standing": "researcher"
+    },
+    "made": "1930",
+    "venue": "The Nation and Athenaeum",
+    "source": {
+      "url": "https://www.marxists.org/reference/subject/economics/keynes/1930/our-grandchildren.htm",
+      "type": "primary"
+    },
+    "deadline": {
+      "stated": true,
+      "text": "one hundred years hence",
+      "date": "2030"
+    },
+    "domain": "economics",
+    "tags": [
+      "living-standards",
+      "working-hours"
+    ],
+    "verdict": "partially-right",
+    "resolution": {
+      "summary": "Real income per person in advanced economies rose within or beyond the four-to-eight-fold range. Average working hours fell but remain roughly 35-40 per week, not 15.",
+      "resolved_date": "2026",
+      "source_url": "https://ourworldindata.org/working-hours"
+    },
+    "confidence_expressed": "I would predict",
+    "status": "verified",
+    "notes": "Two claims in one essay. The growth claim resolved right; the hours claim resolved wrong. Not yet at the stated 2030 deadline but the gap is not closable.",
+    "added": "2026-09-15",
+    "last_reviewed": "2026-09-15"
+  },
+  {
+    "id": "rutherford-1933-moonshine",
+    "claim": "Any one who says that with the means at present at our disposal and with our present knowledge we can utilize atomic energy is talking moonshine.",
+    "context": "Address to the British Association for the Advancement of Science, Leicester. Wording varies between newspapers; this is the New York Times version.",
+    "predictor": {
+      "name": "Ernest Rutherford",
+      "role_at_time": "Director, Cavendish Laboratory; Nobel laureate",
+      "expertise_domain": "Nuclear physics",
+      "speaking_in_own_field": true,
+      "standing": "researcher"
+    },
+    "made": "1933-09-11",
+    "venue": "British Association meeting, Leicester",
+    "source": {
+      "url": "https://quoteinvestigator.com/2018/11/26/moonshine/",
+      "type": "contemporaneous-report",
+      "note": "Quote Investigator collates NYT 12 Sept 1933, AP 11 Sept 1933 and The Times. Exact wording is uncertain; the claim is consistent across reports."
+    },
+    "deadline": {
+      "stated": false
+    },
+    "domain": "science",
+    "tags": [
+      "nuclear",
+      "impossibility"
+    ],
+    "verdict": "wrong",
+    "resolution": {
+      "summary": "Nuclear fission was discovered in December 1938. The first self-sustaining chain reaction ran on 2 December 1942.",
+      "resolved_date": "1942-12-02",
+      "source_url": "https://www.atomicarchive.com/history/manhattan-project/p1s2.html"
+    },
+    "confidence_expressed": "talking moonshine",
+    "status": "verified",
+    "notes": "Rutherford qualified the claim with 'with our present knowledge'. Whether that makes it a hedge or a prediction is a judgement call; recorded as made.",
+    "added": "2026-09-15",
+    "last_reviewed": "2026-09-15"
+  },
+  {
+    "id": "einstein-1934-nuclear-energy",
+    "claim": "There is not the slightest indication that [nuclear energy] will ever be obtainable. It would mean that the atom would have to be shattered at will.",
+    "context": "Reported remarks to the press in Pittsburgh.",
+    "predictor": {
+      "name": "Albert Einstein",
+      "role_at_time": "Physicist, Institute for Advanced Study",
+      "expertise_domain": "Physics",
+      "speaking_in_own_field": true,
+      "standing": "researcher"
+    },
+    "made": "1934-12-29",
+    "venue": "Pittsburgh Post-Gazette",
+    "source": {
+      "url": "https://en.wikiquote.org/wiki/Albert_Einstein",
+      "type": "contemporaneous-report",
+      "note": "Wikiquote sourced section cites 'Atom Energy Hope is Spiked By Einstein / Efforts at Loosing Vast Force is Called Fruitless', Pittsburgh Post-Gazette, 29 Dec 1934. The square brackets are the citing source's; the newspaper page itself has not been inspected."
+    },
+    "deadline": {
+      "stated": false
+    },
+    "domain": "science",
+    "tags": [
+      "nuclear",
+      "impossibility"
+    ],
+    "verdict": "wrong",
+    "resolution": {
+      "summary": "Controlled nuclear chain reaction achieved 2 December 1942; first nuclear power to a grid in 1954.",
+      "resolved_date": "1942-12-02"
+    },
+    "confidence_expressed": "not the slightest indication",
+    "status": "verified",
+    "notes": "Upgrade the source to the newspaper scan if one is located.",
+    "added": "2026-09-15",
+    "last_reviewed": "2026-09-15"
+  },
+  {
+    "id": "clarke-1945-extra-terrestrial-relays",
+    "claim": "A true broadcast service, giving constant field strength at all times over the whole globe would be invaluable, not to say indispensable, in a world society. [...] 30 E — Africa and Europe. 150 E — China and Oceana. 90 W — The Americas.",
+    "context": "Article 'Extra-Terrestrial Relays: Can Rocket Stations Give World-wide Radio Coverage?' proposing satellites in 24-hour orbit.",
+    "predictor": {
+      "name": "Arthur C. Clarke",
+      "role_at_time": "RAF radar officer; science fiction writer",
+      "expertise_domain": "Radio engineering, fiction",
+      "speaking_in_own_field": true,
+      "standing": "commentator"
+    },
+    "made": "1945-10",
+    "venue": "Wireless World",
+    "source": {
+      "url": "https://lakdiva.org.lk/clarke/1945ww/1945ww_oct_305-308.html",
+      "type": "primary",
+      "note": "Copy-edited OCR of the October 1945 article with page scans."
+    },
+    "deadline": {
+      "stated": false
+    },
+    "domain": "technology",
+    "tags": [
+      "satellites",
+      "communications"
+    ],
+    "verdict": "right",
+    "resolution": {
+      "summary": "Syncom 3 became the first geostationary communications satellite in 1964. Hundreds now occupy the orbit, informally named the Clarke Belt.",
+      "resolved_date": "1964-08-19",
+      "source_url": "https://ethw.org/Clarke_Suggests_Geosynchronous_Orbit"
+    },
+    "confidence_expressed": "could give",
+    "status": "verified",
+    "notes": "Clarke assumed crewed stations launched by V-2 derivatives. The three-station geostationary layout is what is scored.",
+    "added": "2026-09-15",
+    "last_reviewed": "2026-09-15"
+  },
+  {
+    "id": "strauss-1954-too-cheap-to-meter",
+    "claim": "It is not too much to expect that our children will enjoy in their homes electrical energy too cheap to meter, will know of great periodic regional famines in the world only as matters of history, will travel effortlessly over the seas and under them and through the air with a minimum of danger and at great speeds, and will experience a lifespan far longer than ours.",
+    "context": "Speech to the National Association of Science Writers, New York.",
+    "predictor": {
+      "name": "Lewis Strauss",
+      "role_at_time": "Chairman, US Atomic Energy Commission",
+      "expertise_domain": "Finance, public administration",
+      "speaking_in_own_field": false,
+      "standing": "official"
+    },
+    "made": "1954-09-16",
+    "venue": "National Association of Science Writers, 20th anniversary dinner",
+    "source": {
+      "url": "https://www.nrc.gov/docs/ml2018/ml20189A194.pdf",
+      "type": "contemporaneous-report",
+      "note": "New York Times, 17 Sept 1954, p.5, 'Abundant Power from Atom Seen'. NRC history paper (this URL) reproduces the passage; NYT citation via Wikipedia 'Too cheap to meter'."
+    },
+    "deadline": {
+      "stated": true,
+      "text": "our children",
+      "date": "1990"
+    },
+    "domain": "energy",
+    "tags": [
+      "nuclear",
+      "electricity"
+    ],
+    "verdict": "wrong",
+    "resolution": {
+      "summary": "Electricity has never been too cheap to meter in any country. Nuclear power's levelised cost has generally been above that of gas and, latterly, wind and solar.",
+      "resolved_date": "1990",
+      "source_url": "https://www.atlanticcouncil.org/blogs/energysource/is-power-ever-too-cheap-to-meter/"
+    },
+    "confidence_expressed": "not too much to expect",
+    "status": "verified",
+    "notes": "Strauss did not say 'nuclear' in the sentence and may have had fusion in mind. The claim as made about home electricity is what is scored.",
+    "added": "2026-09-15",
+    "last_reviewed": "2026-09-15"
+  },
+  {
+    "id": "hubbert-1956-peak-oil",
+    "claim": "It is almost impossible to draw the production curve based upon an assumed ultimate production of 150 billion barrels in any manner differing significantly from that shown in Figure 21, according to which the curve must culminate at about 1965 [...] If we suppose the figure of 150 billion barrels to be 50 billion barrels too low [...] the date of culmination is retarded only until about 1970. [...] The curve has been drawn on the assumption that the maximum rate of production will be about two and one-half times the present rate, which places the date of the peak at about the year 2000.",
+    "context": "Paper 'Nuclear Energy and the Fossil Fuels' presented to the American Petroleum Institute, San Antonio.",
+    "predictor": {
+      "name": "M. King Hubbert",
+      "role_at_time": "Geophysicist, Shell Development Company",
+      "expertise_domain": "Geophysics",
+      "speaking_in_own_field": true,
+      "standing": "researcher"
+    },
+    "made": "1956-03-08",
+    "venue": "American Petroleum Institute, Spring Meeting",
+    "source": {
+      "url": "https://www.resilience.org/stories/2006-03-08/nuclear-energy-and-fossil-fuels/",
+      "type": "primary",
+      "note": "Full-text transcription of Shell Development Publication No. 95, presented to the API Southern District, San Antonio, 7-9 March 1956."
+    },
+    "deadline": {
+      "stated": true,
+      "text": "1965-1970 (US); about 2000 (world)",
+      "date": "2000"
+    },
+    "domain": "energy",
+    "tags": [
+      "oil",
+      "resources"
+    ],
+    "verdict": "partially-right",
+    "resolution": {
+      "summary": "US crude production peaked in 1970, as predicted, then exceeded that peak in 2018 after hydraulic fracturing. World production did not peak in 2000.",
+      "resolved_date": "2018",
+      "source_url": "https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=pet&s=mcrfpus2&f=a"
+    },
+    "confidence_expressed": "should occur",
+    "status": "verified",
+    "notes": "",
+    "added": "2026-09-15",
+    "last_reviewed": "2026-09-15"
+  },
+  {
+    "id": "simon-1960-machines-any-work",
+    "claim": "Technologically, as I have argued earlier, machines will be capable, within twenty years, of doing any work that a man can do.",
+    "context": "From The New Science of Management Decision (1960), p. 38; reprinted in The Shape of Automation for Men and Management (1965).",
+    "predictor": {
+      "name": "Herbert A. Simon",
+      "role_at_time": "Professor, Carnegie Institute of Technology; AI pioneer",
+      "expertise_domain": "Artificial intelligence, decision theory",
+      "speaking_in_own_field": true,
+      "standing": "researcher"
+    },
+    "made": "1960",
+    "venue": "Book: The New Science of Management Decision",
+    "source": {
+      "url": "https://quoteinvestigator.com/2020/11/11/ai-can-do/",
+      "type": "secondary",
+      "note": "Quote Investigator cites page 38 of the 1960 edition."
+    },
+    "deadline": {
+      "stated": true,
+      "text": "within twenty years",
+      "date": "1980"
+    },
+    "domain": "ai",
+    "tags": [
+      "automation",
+      "agi"
+    ],
+    "verdict": "wrong",
+    "resolution": {
+      "summary": "By 1980 no machine could do most physical or cognitive work a person could do. The claim remains unmet as of 2026.",
+      "resolved_date": "1980"
+    },
+    "confidence_expressed": "will be capable",
+    "status": "verified",
+    "notes": "Simon added that humans would keep an economic advantage in many jobs because computers were expensive. The technological claim is what is scored.",
+    "added": "2026-09-15",
+    "last_reviewed": "2026-09-15"
+  },
+  {
+    "id": "moore-1965-cramming",
+    "claim": "The complexity for minimum component costs has increased at a rate of roughly a factor of two per year. Certainly over the short term this rate can be expected to continue, if not to increase. Over the longer term, the rate of increase is a bit more uncertain, although there is no reason to believe it will not remain nearly constant for at least 10 years.",
+    "context": "Article 'Cramming more components onto integrated circuits' for the 35th anniversary issue of Electronics.",
+    "predictor": {
+      "name": "Gordon Moore",
+      "role_at_time": "Director of R&D, Fairchild Semiconductor",
+      "expertise_domain": "Semiconductors",
+      "speaking_in_own_field": true,
+      "standing": "practitioner"
+    },
+    "made": "1965-04-19",
+    "venue": "Electronics, vol. 38 no. 8",
+    "source": {
+      "url": "https://www.cs.utexas.edu/~fussell/courses/cs352h/papers/moore.pdf",
+      "type": "primary",
+      "note": "PDF scan is image-only. Passage confirmed verbatim via Wikipedia 'Moore's law' quotation of the article."
+    },
+    "deadline": {
+      "stated": true,
+      "text": "by 1975",
+      "date": "1975"
+    },
+    "domain": "technology",
+    "tags": [
+      "semiconductors",
+      "moores-law"
+    ],
+    "verdict": "right",
+    "resolution": {
+      "summary": "Moore reported in 1975 that the projection had been met; he then revised the rate to a doubling every two years, which held for roughly four decades.",
+      "resolved_date": "1975",
+      "source_url": "https://www.computerhistory.org/siliconengine/moores-law-predicts-the-future-of-integrated-circuits/"
+    },
+    "confidence_expressed": "can be expected to continue",
+    "status": "verified",
+    "added": "2026-09-15",
+    "last_reviewed": "2026-09-15",
+    "notes": "The article's 65,000-components-by-1975 figure is paraphrased in most sources and is not included in the claim text."
+  },
+  {
+    "id": "time-1966-remote-shopping",
+    "claim": "Remote shopping, while entirely feasible, will flop—because women like to get out of the house, like to handle the merchandise, like to be able to change their minds.",
+    "context": "Unsigned essay 'The Futurists: Looking Toward A.D. 2000'.",
+    "predictor": {
+      "name": "Time magazine (unsigned essay)",
+      "role_at_time": "News magazine editorial",
+      "expertise_domain": "Journalism",
+      "speaking_in_own_field": false,
+      "standing": "publication"
+    },
+    "made": "1966-02-25",
+    "venue": "Time",
+    "source": {
+      "url": "https://content.time.com/time/subscriber/article/0,33009,835128-5,00.html",
+      "archive_url": "https://content.time.com/time/specials/packages/article/0,28804,2097462_2097456_2097474,00.html",
+      "type": "primary",
+      "note": "Original is paywalled; Time's 2011 'Top 10 Failed Predictions' reproduces the passage."
+    },
+    "deadline": {
+      "stated": true,
+      "text": "A.D. 2000",
+      "date": "2000"
+    },
+    "domain": "economics",
+    "tags": [
+      "retail",
+      "internet"
+    ],
+    "verdict": "wrong",
+    "resolution": {
+      "summary": "US e-commerce sales passed $27bn in 2000 and exceeded $1 trillion a year by 2022.",
+      "resolved_date": "2000",
+      "source_url": "https://www.census.gov/retail/ecommerce.html"
+    },
+    "confidence_expressed": "will flop",
+    "status": "verified",
+    "added": "2026-09-15",
+    "last_reviewed": "2026-09-15"
+  },
+  {
+    "id": "ehrlich-1968-population-bomb",
+    "claim": "The battle to feed all of humanity is over. In the 1970s and 1980s hundreds of millions of people will starve to death in spite of any crash programs embarked upon now. At this late date nothing can prevent a substantial increase in the world death rate.",
+    "context": "Opening of the Prologue to The Population Bomb. The 1971 revised edition changed '1970s' to '1970s and 1980s'.",
+    "predictor": {
+      "name": "Paul R. Ehrlich",
+      "role_at_time": "Professor of Biology, Stanford University",
+      "expertise_domain": "Entomology, population biology",
+      "speaking_in_own_field": false,
+      "standing": "researcher"
+    },
+    "made": "1968",
+    "venue": "Book: The Population Bomb (Ballantine)",
+    "source": {
+      "url": "https://biotech.law.lsu.edu/blog/Ehrlich-Population-Bomb-forward.pdf",
+      "type": "primary",
+      "note": "Text confirmed from scanned 1975 Rivercity Press reprint of the revised (1971) edition. The 1968 first edition reads 'In the 1970s the world will undergo famines—hundreds of millions of people are going to starve to death' per multiple secondary sources; first-edition scan (archive.org populationbomb00ehrl) not yet inspected."
+    },
+    "deadline": {
+      "stated": true,
+      "text": "in the 1970s",
+      "date": "1979"
+    },
+    "domain": "demographics",
+    "tags": [
+      "famine",
+      "population"
+    ],
+    "verdict": "wrong",
+    "resolution": {
+      "summary": "Global famine deaths in the 1970s and 1980s were in the low millions, concentrated in Bangladesh, Cambodia and Ethiopia, and were driven by war and policy rather than aggregate food supply. World population more than doubled after 1968 while calorie supply per person rose.",
+      "resolved_date": "1989",
+      "source_url": "https://ourworldindata.org/famines"
+    },
+    "confidence_expressed": "are going to",
+    "status": "verified",
+    "notes": "Ehrlich has maintained the book's broad thesis was right and the timing wrong. The revised edition widened the deadline from the 1970s to the 1970s and 1980s.",
+    "added": "2026-09-15",
+    "last_reviewed": "2026-09-15"
+  },
+  {
+    "id": "minsky-1970-general-intelligence",
+    "claim": "In from three to eight years we will have a machine with the general intelligence of an average human being. I mean a machine that will be able to read Shakespeare, grease a car, play office politics, tell a joke, have a fight. At that point the machine will begin to educate itself with fantastic speed. In a few months it will be at genius level and a few months after that its powers will be incalculable.",
+    "context": "Quoted in Brad Darrach's article 'Meet Shaky, the First Electronic Person'.",
+    "predictor": {
+      "name": "Marvin Minsky",
+      "role_at_time": "Co-founder, MIT AI Laboratory",
+      "expertise_domain": "Artificial intelligence",
+      "speaking_in_own_field": true,
+      "standing": "researcher"
+    },
+    "made": "1970-11-20",
+    "venue": "Life magazine",
+    "source": {
+      "url": "https://books.google.com/books?id=2FMEAAAAMBAJ&printsec=frontcover#v=onepage&q=grease%20a%20car&f=false",
+      "archive_url": "https://quoteinvestigator.com/2017/06/21/robot-pet/",
+      "type": "primary",
+      "note": "Google Books full-view scan of Life, 20 Nov 1970, 'Meet Shaky, the first electronic person' by Brad Darrach. Page checked by maintainer; text matches verbatim. Darrach introduces the quote as said 'with quiet certitude'."
+    },
+    "deadline": {
+      "stated": true,
+      "text": "three to eight years",
+      "date": "1978"
+    },
+    "domain": "ai",
+    "tags": [
+      "agi",
+      "timelines"
+    ],
+    "verdict": "wrong",
+    "resolution": {
+      "summary": "No machine with general human-level intelligence existed by 1978. The AI field entered a funding contraction later called the first AI winter.",
+      "resolved_date": "1978"
+    },
+    "confidence_expressed": "we will have; said 'with quiet certitude' per the interviewer",
+    "status": "verified",
+    "added": "2026-09-15",
+    "last_reviewed": "2026-09-15",
+    "notes": "Minsky later said Darrach exaggerated his remarks; Life did not retract."
+  },
+  {
+    "id": "newsweek-1975-cooling-world",
+    "claim": "There are ominous signs that the Earth's weather patterns have begun to change dramatically and that these changes may portend a drastic decline in food production—with serious political implications for just about every nation on Earth. [...] Meteorologists disagree about the cause and extent of the cooling trend [...] But they are almost unanimous in the view that the trend will reduce agricultural productivity for the rest of the century.",
+    "context": "Science section article 'The Cooling World'.",
+    "predictor": {
+      "name": "Peter Gwynne",
+      "role_at_time": "Science editor, Newsweek",
+      "expertise_domain": "Science journalism",
+      "speaking_in_own_field": true,
+      "standing": "commentator"
+    },
+    "made": "1975-04-28",
+    "venue": "Newsweek",
+    "source": {
+      "url": "https://archive.org/details/GlobalCoolingNewsweekArticle1975",
+      "type": "primary"
+    },
+    "deadline": {
+      "stated": true,
+      "text": "the rest of the century",
+      "date": "2000"
+    },
+    "domain": "climate",
+    "tags": [
+      "climate",
+      "agriculture"
+    ],
+    "verdict": "wrong",
+    "resolution": {
+      "summary": "Global mean temperature rose about 0.5C between 1975 and 2000. World cereal yields per hectare rose roughly 50% over the same period.",
+      "resolved_date": "2000",
+      "source_url": "https://www.insidescience.org/news/my-1975-cooling-world-story-doesnt-make-todays-climate-scientists-wrong"
+    },
+    "confidence_expressed": "almost unanimous",
+    "status": "verified",
+    "notes": "Gwynne wrote in 2014 that the piece omitted contemporary evidence on CO2 and overstated the consensus. Included as a journalist's prediction, not a scientific paper.",
+    "added": "2026-09-15",
+    "last_reviewed": "2026-09-15"
+  },
+  {
+    "id": "olsen-1977-computer-in-home",
+    "claim": "There is no reason for any individual to have a computer in his home.",
+    "context": "Reported remark at a World Future Society meeting in Boston. Olsen said he meant a central computer controlling the house, not a personal computer.",
+    "predictor": {
+      "name": "Ken Olsen",
+      "role_at_time": "President and co-founder, Digital Equipment Corporation",
+      "expertise_domain": "Computer engineering",
+      "speaking_in_own_field": true,
+      "standing": "practitioner"
+    },
+    "made": "1977",
+    "venue": "World Future Society convention, Boston",
+    "source": {
+      "url": "https://quoteinvestigator.com/2017/09/14/home-computer/",
+      "type": "secondary",
+      "note": "Earliest published evidence is David Ahl's April 1980 recollection in Creative Computing, three years after the talk. No transcript or contemporaneous report found. Olsen did not deny it; he disputed the meaning (1982 Infosystems; 2003 book)."
+    },
+    "deadline": {
+      "stated": false
+    },
+    "domain": "technology",
+    "tags": [
+      "personal-computers"
+    ],
+    "verdict": "wrong",
+    "resolution": {
+      "summary": "Around half of US households had a personal computer by 2000.",
+      "resolved_date": "2000",
+      "source_url": "https://www.census.gov/history/pdf/computer-use-2000.pdf"
+    },
+    "confidence_expressed": "no reason",
+    "status": "rejected",
+    "notes": "Rests entirely on David Ahl's recollections, first published in 1980, three years after the 1977 talk and six years after a 1974 internal meeting he says it was first made at. Quote Investigator found no record in World Future Society proceedings and no matching text in the Time archive. Olsen disputed the meaning rather than the words. Fails the verification standard; kept here so the reasoning is public.",
+    "added": "2026-09-15",
+    "last_reviewed": "2026-09-15",
+    "rejection_reason": "unverifiable"
+  },
+  {
+    "id": "businessweek-1979-death-of-equities",
+    "claim": "The Death of Equities: How Inflation Is Destroying the Stock Market. [...] For better or for worse, then, the U.S. economy probably has to regard the death of equities as a near-permanent condition—reversible some day, but not soon.",
+    "context": "Cover story.",
+    "predictor": {
+      "name": "BusinessWeek (unsigned cover story)",
+      "role_at_time": "Business magazine editorial",
+      "expertise_domain": "Financial journalism",
+      "speaking_in_own_field": true,
+      "standing": "publication"
+    },
+    "made": "1979-08-13",
+    "venue": "BusinessWeek",
+    "source": {
+      "url": "https://www.fiendbear.com/deatheq.htm",
+      "archive_url": "https://www.bloomberg.com/news/articles/2019-08-13/it-s-been-40-years-since-our-cover-story-declared-the-death-of-equities",
+      "type": "contemporaneous-report",
+      "note": "Excerpts reproduced; Bloomberg (successor publisher) retrospective reproduces the full article behind a paywall."
+    },
+    "deadline": {
+      "stated": true,
+      "text": "not soon",
+      "date": "1989"
+    },
+    "domain": "economics",
+    "tags": [
+      "stock-market"
+    ],
+    "verdict": "wrong",
+    "resolution": {
+      "summary": "The S&P 500 bottomed in August 1982 and rose about fourteen-fold in price by March 2000.",
+      "resolved_date": "1989",
+      "source_url": "https://www.bloomberg.com/news/articles/2019-08-13/it-s-been-40-years-since-our-cover-story-declared-the-death-of-equities"
+    },
+    "confidence_expressed": "almost permanent condition",
+    "status": "verified",
+    "added": "2026-09-15",
+    "last_reviewed": "2026-09-15"
+  },
+  {
+    "id": "simon-ehrlich-1980-wager",
+    "claim": "Julian Simon bet that the inflation-adjusted price of a $1,000 basket of five metals (chromium, copper, nickel, tin, tungsten) chosen by Ehrlich would be lower in September 1990 than in September 1980. Ehrlich bet it would be higher.",
+    "context": "Public wager arising from Simon's challenge in Social Science Quarterly.",
+    "predictor": {
+      "name": "Julian Simon (v. Paul Ehrlich)",
+      "role_at_time": "Professor of Business Administration, University of Maryland",
+      "expertise_domain": "Economics",
+      "speaking_in_own_field": true,
+      "standing": "researcher"
+    },
+    "made": "1980-09-29",
+    "venue": "Public wager",
+    "source": {
+      "url": "https://en.wikipedia.org/wiki/Simon%E2%80%93Ehrlich_wager",
+      "type": "secondary",
+      "note": "Well documented; primary correspondence reproduced in Sabin, The Bet (2013)."
+    },
+    "deadline": {
+      "stated": true,
+      "text": "September 1990",
+      "date": "1990-09-29"
+    },
+    "domain": "economics",
+    "tags": [
+      "resources",
+      "wager"
+    ],
+    "verdict": "right",
+    "resolution": {
+      "summary": "All five metals fell in real terms. Ehrlich paid Simon $576.07 in October 1990.",
+      "resolved_date": "1990-10",
+      "source_url": "https://ourworldindata.org/simon-ehrlich-bet"
+    },
+    "confidence_expressed": "wager",
+    "status": "verified",
+    "notes": "Our World in Data shows Simon would have lost the same bet over most other ten-year windows since 1900. Recorded as the bet was actually made.",
+    "added": "2026-09-15",
+    "last_reviewed": "2026-09-15"
+  },
+  {
+    "id": "fish-1987-hurricane",
+    "claim": "Earlier on today, apparently, a woman rang the BBC and said she heard there was a hurricane on the way; well, if you're watching, don't worry, there isn't, but having said that, actually, the weather will become very windy.",
+    "context": "BBC lunchtime weather forecast the day before the Great Storm of 1987.",
+    "predictor": {
+      "name": "Michael Fish",
+      "role_at_time": "BBC weather presenter, Met Office",
+      "expertise_domain": "Meteorology",
+      "speaking_in_own_field": true,
+      "standing": "practitioner"
+    },
+    "made": "1987-10-15",
+    "venue": "BBC One weather bulletin",
+    "source": {
+      "url": "https://www.metoffice.gov.uk/about-us/who-we-are/our-history/lessons-and-legacy-of-the-great-storm-of-1987",
+      "type": "primary",
+      "note": "Broadcast footage widely available; Met Office retrospective."
+    },
+    "deadline": {
+      "stated": true,
+      "text": "tonight/tomorrow",
+      "date": "1987-10-16"
+    },
+    "domain": "science",
+    "tags": [
+      "weather"
+    ],
+    "verdict": "wrong",
+    "resolution": {
+      "summary": "Winds gusting over 100 mph hit southern England overnight, killing 18 people and felling an estimated 15 million trees.",
+      "resolved_date": "1987-10-16",
+      "source_url": "https://www.metoffice.gov.uk/about-us/who-we-are/our-history/lessons-and-legacy-of-the-great-storm-of-1987"
+    },
+    "confidence_expressed": "don't worry, there isn't",
+    "status": "verified",
+    "notes": "Fish has said the hurricane reference concerned a Caribbean storm and that the forecast did warn of strong winds. Technically the storm was not a hurricane.",
+    "added": "2026-09-15",
+    "last_reviewed": "2026-09-15"
+  },
+  {
+    "id": "stoll-1995-web-nirvana",
+    "claim": "The truth is no online database will replace your daily newspaper, no CD-ROM can take the place of a competent teacher and no computer network will change the way government works. [...] we'll soon buy books and newspapers straight over the Internet. Uh, sure.",
+    "context": "Opinion column 'Why the Web Won't Be Nirvana'.",
+    "predictor": {
+      "name": "Clifford Stoll",
+      "role_at_time": "Astronomer; author of The Cuckoo's Egg",
+      "expertise_domain": "Astronomy, computer security",
+      "speaking_in_own_field": false,
+      "standing": "commentator"
+    },
+    "made": "1995-02-26",
+    "venue": "Newsweek",
+    "source": {
+      "url": "https://www.newsweek.com/clifford-stoll-why-web-wont-be-nirvana-185306",
+      "type": "primary"
+    },
+    "deadline": {
+      "stated": false
+    },
+    "domain": "technology",
+    "tags": [
+      "internet",
+      "media"
+    ],
+    "verdict": "wrong",
+    "resolution": {
+      "summary": "US newspaper print circulation fell by more than half between 1995 and 2020; Amazon sold over $500bn of goods online in 2023.",
+      "resolved_date": "2020",
+      "source_url": "https://www.pewresearch.org/journalism/fact-sheet/newspapers/"
+    },
+    "confidence_expressed": "the truth is",
+    "status": "verified",
+    "notes": "Stoll acknowledged the error publicly in 2010.",
+    "added": "2026-09-15",
+    "last_reviewed": "2026-09-15"
+  },
+  {
+    "id": "metcalfe-1995-internet-collapse",
+    "claim": "I predict the Internet will soon go spectacularly supernova and in 1996 catastrophically collapse.",
+    "context": "'From the Ether' column.",
+    "predictor": {
+      "name": "Robert Metcalfe",
+      "role_at_time": "Columnist, InfoWorld; inventor of Ethernet; founder of 3Com",
+      "expertise_domain": "Networking",
+      "speaking_in_own_field": true,
+      "standing": "practitioner"
+    },
+    "made": "1995-12-04",
+    "venue": "InfoWorld",
+    "source": {
+      "url": "https://quoteinvestigator.com/2020/03/09/collapse/",
+      "type": "contemporaneous-report",
+      "note": "Column reprinted in Metcalfe, Internet Collapses and Other InfoWorld Punditry (2000)."
+    },
+    "deadline": {
+      "stated": true,
+      "text": "in 1996",
+      "date": "1996-12-31"
+    },
+    "domain": "technology",
+    "tags": [
+      "internet"
+    ],
+    "verdict": "wrong",
+    "resolution": {
+      "summary": "No collapse occurred. Metcalfe blended and ate a copy of the column on stage at the Sixth International WWW Conference on 11 April 1997.",
+      "resolved_date": "1997-04-11",
+      "source_url": "https://www.elon.edu/u/imagining/expert_predictions/from-the-ether-predicting-the-internets-catastrophic-collapse-and-ghost-sites-galore-in-1996/"
+    },
+    "confidence_expressed": "I predict",
+    "status": "verified",
+    "added": "2026-09-15",
+    "last_reviewed": "2026-09-15"
+  },
+  {
+    "id": "krugman-1998-internet-fax",
+    "claim": "By 2005 or so, it will become clear that the Internet's impact on the economy has been no greater than the fax machine's.",
+    "context": "Article 'Why most economists' predictions are wrong', written for a special issue on the future.",
+    "predictor": {
+      "name": "Paul Krugman",
+      "role_at_time": "Professor of Economics, MIT",
+      "expertise_domain": "International economics",
+      "speaking_in_own_field": false,
+      "standing": "researcher"
+    },
+    "made": "1998-06-10",
+    "venue": "Red Herring",
+    "source": {
+      "url": "https://quoteinvestigator.com/2023/10/26/internet-fax/",
+      "archive_url": "https://web.archive.org/web/19980610100009/http://www.redherring.com/mag/issue55/economics.html",
+      "type": "contemporaneous-report"
+    },
+    "deadline": {
+      "stated": true,
+      "text": "by 2005 or so",
+      "date": "2005"
+    },
+    "domain": "economics",
+    "tags": [
+      "internet",
+      "productivity"
+    ],
+    "verdict": "wrong",
+    "resolution": {
+      "summary": "By 2005 internet-related activity was a measurable share of US GDP and the source of the largest new firms of the decade. Krugman wrote in 2013 that the piece was meant to be provocative and that he got it wrong.",
+      "resolved_date": "2005"
+    },
+    "confidence_expressed": "it will become clear",
+    "status": "verified",
+    "notes": "Predictor has said it was not a serious forecast. Recorded because it was published under his name as a prediction with a date.",
+    "added": "2026-09-15",
+    "last_reviewed": "2026-09-15"
+  },
+  {
+    "id": "economist-1999-drowning-in-oil",
+    "claim": "$10 might actually be too optimistic. We may be heading for $5.",
+    "context": "Leader accompanying the cover 'Drowning in oil'. Brent was around $12 a barrel.",
+    "predictor": {
+      "name": "The Economist (unsigned leader)",
+      "role_at_time": "Newspaper editorial",
+      "expertise_domain": "Economic journalism",
+      "speaking_in_own_field": true,
+      "standing": "publication"
+    },
+    "made": "1999-03-04",
+    "venue": "The Economist",
+    "source": {
+      "url": "https://casi.org.uk/discuss/1999/msg00181.html",
+      "type": "contemporaneous-report",
+      "note": "Text reposted to a mailing list in March 1999; original leader is paywalled.",
+      "archive_url": "https://www.economist.com/leaders/1999/03/04/the-next-shock"
+    },
+    "deadline": {
+      "stated": false
+    },
+    "domain": "energy",
+    "tags": [
+      "oil",
+      "commodities"
+    ],
+    "verdict": "wrong",
+    "resolution": {
+      "summary": "Oil roughly tripled within twelve months and passed $140 a barrel in 2008. March 1999 was the cycle low.",
+      "resolved_date": "2000-03",
+      "source_url": "https://www.eia.gov/dnav/pet/hist/RBRTED.htm"
+    },
+    "confidence_expressed": "may be heading",
+    "status": "verified",
+    "added": "2026-09-15",
+    "last_reviewed": "2026-09-15"
+  },
+  {
+    "id": "yardeni-1999-y2k-recession",
+    "claim": "I believe there is a 70% chance of such a worldwide recession, which could last 12 months starting in January 2000.",
+    "context": "Y2K web book 'Year 2000 Recession? Prepare for the worst. Hope for the best', version 11.0.",
+    "predictor": {
+      "name": "Ed Yardeni",
+      "role_at_time": "Chief Economist, Deutsche Bank Securities",
+      "expertise_domain": "Economics",
+      "speaking_in_own_field": true,
+      "standing": "practitioner"
+    },
+    "made": "1999-03-07",
+    "venue": "yardeni.com",
+    "source": {
+      "url": "https://www.jca.apc.org/interdoc/y2k/archive/msg00216.html",
+      "type": "contemporaneous-report",
+      "note": "Mailing-list repost of Yardeni's text with date and version."
+    },
+    "deadline": {
+      "stated": true,
+      "text": "starting in January 2000",
+      "date": "2000-12"
+    },
+    "domain": "economics",
+    "tags": [
+      "y2k",
+      "recession",
+      "probability"
+    ],
+    "verdict": "wrong",
+    "resolution": {
+      "summary": "No Y2K-related disruption or recession occurred. Yardeni conceded in January 2000.",
+      "resolved_date": "2000-01",
+      "source_url": "https://money.cnn.com/magazines/fortune/fortune_archive/2000/01/24/272329/index.htm"
+    },
+    "confidence_expressed": "70% chance",
+    "status": "verified",
+    "notes": "A probabilistic claim. A single non-event does not prove 70% was wrong, but the predictor himself withdrew it, and the causal mechanism (widespread system failure) did not occur at all.",
+    "added": "2026-09-15",
+    "last_reviewed": "2026-09-15"
+  },
+  {
+    "id": "kamen-2001-segway",
+    "claim": "I would stake my reputation, my money and my time on the fact that 10 years from now, this will be the way many people in many places get around. [...] It will be to the car what the car was to the horse and buggy.",
+    "context": "Kamen on the Segway Human Transporter at its unveiling, reported by Time. Separate remarks by Steve Jobs and John Doerr came from a private meeting via a leaked book proposal and are not scored.",
+    "predictor": {
+      "name": "Dean Kamen",
+      "role_at_time": "Inventor; founder, DEKA Research",
+      "expertise_domain": "Engineering",
+      "speaking_in_own_field": true,
+      "standing": "practitioner"
+    },
+    "made": "2001-12-02",
+    "venue": "Time",
+    "source": {
+      "url": "https://time.com/archive/6905012/reinventing-the-wheel-3/",
+      "type": "contemporaneous-report"
+    },
+    "deadline": {
+      "stated": true,
+      "text": "10 years from now",
+      "date": "2011-12"
+    },
+    "domain": "technology",
+    "tags": [
+      "transport"
+    ],
+    "verdict": "wrong",
+    "resolution": {
+      "summary": "Segway sold about 140,000 units in its lifetime. By 2011 it was a niche product for tours and security patrols. Production ended in July 2020.",
+      "resolved_date": "2011-12",
+      "source_url": "https://www.npr.org/2011/12/02/143062995/despite-splashy-debut-segway-shows-lackluster-sales"
+    },
+    "confidence_expressed": "will be",
+    "status": "verified",
+    "notes": "",
+    "added": "2026-09-15",
+    "last_reviewed": "2026-09-15"
+  },
+  {
+    "id": "gates-2004-spam-solved",
+    "claim": "Two years from now, spam will be solved.",
+    "context": "Remarks at the World Economic Forum, Davos, outlining challenge-response and sender-pays schemes.",
+    "predictor": {
+      "name": "Bill Gates",
+      "role_at_time": "Chairman and Chief Software Architect, Microsoft",
+      "expertise_domain": "Software",
+      "speaking_in_own_field": true,
+      "standing": "practitioner"
+    },
+    "made": "2004-01-24",
+    "venue": "World Economic Forum, Davos",
+    "source": {
+      "url": "http://news.bbc.co.uk/2/hi/business/3426367.stm",
+      "type": "contemporaneous-report",
+      "note": "BBC News, 24 January 2004."
+    },
+    "deadline": {
+      "stated": true,
+      "text": "two years from now",
+      "date": "2006-01"
+    },
+    "domain": "technology",
+    "tags": [
+      "email",
+      "security"
+    ],
+    "verdict": "wrong",
+    "resolution": {
+      "summary": "Spam volume rose to record levels in 2006-07 and remained the majority of global email traffic for years afterwards.",
+      "resolved_date": "2006",
+      "source_url": "https://www.theregister.com/2004/01/26/well_kill_spam_in_two/"
+    },
+    "confidence_expressed": "will be solved",
+    "status": "verified",
+    "added": "2026-09-15",
+    "last_reviewed": "2026-09-15"
+  },
+  {
+    "id": "roubini-2007-imf-hard-landing",
+    "claim": "Last year I said this is going to be the worst housing recession in the last few decades and there will be a significant fall in home prices. [...] Last year I said at least a 15 to 20 percent decline [...] I expect still a U.S. hard landing and a recession, I expect that this financial turmoil is going to persist and it will be a vicious circle where the real economy gets worse and the financial markets get tighter and vice versa [...] I do not believe that the Fed is going to be able to avoid a hard landing. [...] Again, I am not expecting a global recession, but a more significant slowdown of global growth than the one that people are currently pricing.",
+    "context": "IMF seminar 'The Risk of a U.S. Hard Landing and Implications for the Global Economy and Financial Markets', five days before the Fed's first rate cut of the cycle. His better-known September 2006 IMF talk has no surviving transcript; this is the verifiable successor.",
+    "predictor": {
+      "name": "Nouriel Roubini",
+      "role_at_time": "Professor of Economics, NYU Stern",
+      "expertise_domain": "Macroeconomics",
+      "speaking_in_own_field": true,
+      "standing": "researcher"
+    },
+    "made": "2007-09-13",
+    "venue": "IMF seminar, Washington",
+    "source": {
+      "url": "https://www.imf.org/en/News/Articles/2015/09/28/04/54/tr070913z",
+      "type": "primary",
+      "note": "IMF's own transcript. Text checked by maintainer."
+    },
+    "deadline": {
+      "stated": true,
+      "text": "the next few quarters",
+      "date": "2008-12"
+    },
+    "domain": "economics",
+    "tags": [
+      "housing",
+      "financial-crisis"
+    ],
+    "verdict": "partially-right",
+    "resolution": {
+      "summary": "The US recession began December 2007 and lasted 18 months. Case-Shiller home prices fell about 27% peak to trough. Financial turmoil persisted through the Lehman failure in September 2008. World GDP contracted in 2009, so the 'not a global recession' qualifier did not hold.",
+      "resolved_date": "2009-12",
+      "source_url": "https://www.nber.org/research/data/us-business-cycle-expansions-and-contractions"
+    },
+    "confidence_expressed": "I expect; I do not believe the Fed is going to be able to avoid",
+    "status": "verified",
+    "notes": "Core calls (US recession, persistent turmoil, home price decline of at least 15-20%) resolved right. The explicit qualifier that he did not expect a global recession resolved wrong, hence partially right under the multiple-claims rule. Roubini's many later recession calls should be scored as separate entries.",
+    "added": "2026-09-15",
+    "last_reviewed": "2026-09-15"
+  },
+  {
+    "id": "schiff-2006-real-estate-crash",
+    "claim": "What's going to happen in 2007 [...] these sky-high real estate prices are going to come crashing back down to Earth.",
+    "context": "Televised debate on Fox News.",
+    "predictor": {
+      "name": "Peter Schiff",
+      "role_at_time": "President, Euro Pacific Capital",
+      "expertise_domain": "Investment brokerage",
+      "speaking_in_own_field": true,
+      "standing": "commentator"
+    },
+    "made": "2006-12",
+    "venue": "Fox News",
+    "source": {
+      "url": "https://www.youtube.com/watch?v=1G0tfb8ZefA",
+      "type": "primary",
+      "note": "Fox News clip in the compilation video, confirmed by maintainer. Exact air date still to be added."
+    },
+    "deadline": {
+      "stated": true,
+      "text": "in 2007",
+      "date": "2007-12"
+    },
+    "domain": "economics",
+    "tags": [
+      "housing",
+      "financial-crisis"
+    ],
+    "verdict": "right",
+    "resolution": {
+      "summary": "Case-Shiller national index fell through 2007 and 2008, with a peak-to-trough decline of about 27%.",
+      "resolved_date": "2008",
+      "source_url": "https://fred.stlouisfed.org/series/CSUSHPINSA"
+    },
+    "confidence_expressed": "going to",
+    "status": "verified",
+    "notes": "Schiff also predicted hyperinflation and a dollar collapse in the same period, which did not occur. Score each claim separately.",
+    "added": "2026-09-15",
+    "last_reviewed": "2026-09-15"
+  },
+  {
+    "id": "bernanke-2007-subprime-contained",
+    "claim": "At this juncture, however, the impact on the broader economy and financial markets of the problems in the subprime market seems likely to be contained.",
+    "context": "Testimony on the economic outlook before the Joint Economic Committee.",
+    "predictor": {
+      "name": "Ben Bernanke",
+      "role_at_time": "Chairman, Federal Reserve",
+      "expertise_domain": "Monetary economics",
+      "speaking_in_own_field": true,
+      "standing": "official"
+    },
+    "made": "2007-03-28",
+    "venue": "Joint Economic Committee, US Congress",
+    "source": {
+      "url": "https://www.federalreserve.gov/newsevents/testimony/bernanke20070328a.htm",
+      "type": "primary"
+    },
+    "deadline": {
+      "stated": false
+    },
+    "domain": "economics",
+    "tags": [
+      "housing",
+      "financial-crisis"
+    ],
+    "verdict": "wrong",
+    "resolution": {
+      "summary": "Subprime losses spread to the wider financial system in 2007-08, culminating in the failure of Lehman Brothers and the deepest US recession since the 1930s.",
+      "resolved_date": "2008-09-15",
+      "source_url": "https://www.federalreservehistory.org/essays/great-recession-of-200709"
+    },
+    "confidence_expressed": "seems likely",
+    "status": "verified",
+    "added": "2026-09-15",
+    "last_reviewed": "2026-09-15"
+  },
+  {
+    "id": "ballmer-2007-iphone-no-chance",
+    "claim": "There's no chance that the iPhone is going to get any significant market share. No chance.",
+    "context": "On-stage interview with David Lieberman at the USA Today CEO Forum.",
+    "predictor": {
+      "name": "Steve Ballmer",
+      "role_at_time": "CEO, Microsoft",
+      "expertise_domain": "Software business",
+      "speaking_in_own_field": true,
+      "standing": "practitioner"
+    },
+    "made": "2007-04-30",
+    "venue": "USA Today CEO Forum",
+    "source": {
+      "url": "https://www.youtube.com/watch?v=eywi0h_Y5_U",
+      "type": "primary",
+      "note": "Video of the interview. USA Today print report also available."
+    },
+    "deadline": {
+      "stated": false
+    },
+    "domain": "technology",
+    "tags": [
+      "smartphones"
+    ],
+    "verdict": "wrong",
+    "resolution": {
+      "summary": "iPhone reached about 20% of global smartphone unit share and over half of the industry's profits by 2012. Microsoft exited the phone business in 2017.",
+      "resolved_date": "2012",
+      "source_url": "https://www.counterpointresearch.com/"
+    },
+    "confidence_expressed": "no chance",
+    "status": "verified",
+    "notes": "Ballmer's fuller remark said he would rather have Microsoft software in 60-80% of phones than Apple's 2-3%.",
+    "added": "2026-09-15",
+    "last_reviewed": "2026-09-15"
+  },
+  {
+    "id": "cramer-2008-bear-stearns-fine",
+    "claim": "No! No! No! Bear Stearns is fine. Do not take your money out. Bear Stearns is not in trouble. If anything, they're more likely to be taken over. Don't move your money from Bear. That's just being silly. Don't be silly.",
+    "context": "Reply to a viewer question on Mad Money.",
+    "predictor": {
+      "name": "Jim Cramer",
+      "role_at_time": "Host, Mad Money, CNBC; former hedge fund manager",
+      "expertise_domain": "Stock picking",
+      "speaking_in_own_field": true,
+      "standing": "commentator"
+    },
+    "made": "2008-03-11",
+    "venue": "CNBC, Mad Money",
+    "source": {
+      "url": "https://www.youtube.com/watch?v=gUkbdjetlY8",
+      "type": "primary",
+      "note": "Broadcast clip. CNBC's own 2009 'Setting the Record Straight on Bear Stearns' gives the viewer question and reply.",
+      "archive_url": "https://www.cnbc.com/id/29509036"
+    },
+    "deadline": {
+      "stated": false
+    },
+    "domain": "economics",
+    "tags": [
+      "financial-crisis",
+      "stocks"
+    ],
+    "verdict": "wrong",
+    "resolution": {
+      "summary": "Bear Stearns was sold to JPMorgan Chase five days later at $2 a share, later raised to $10, against roughly $62 on the day of the broadcast.",
+      "resolved_date": "2008-03-16",
+      "source_url": "https://www.federalreservehistory.org/essays/bear-stearns-rescue"
+    },
+    "confidence_expressed": "is fine",
+    "status": "verified",
+    "notes": "Cramer later said he was answering whether deposits at Bear were safe, not whether the stock was.",
+    "added": "2026-09-15",
+    "last_reviewed": "2026-09-15"
+  },
+  {
+    "id": "camping-2011-judgment-day",
+    "claim": "Beyond the shadow of a doubt, May 21 will be the date of the Rapture and the day of judgment.",
+    "context": "Radio broadcasts and a billboard campaign by Family Radio, following his 2005 book Time Has an End.",
+    "predictor": {
+      "name": "Harold Camping",
+      "role_at_time": "President, Family Radio",
+      "expertise_domain": "Religious broadcasting",
+      "speaking_in_own_field": true,
+      "standing": "commentator"
+    },
+    "made": "2011-01",
+    "venue": "Family Radio broadcasts; billboard campaign",
+    "source": {
+      "url": "https://www.channel4.com/news/world-fails-to-end",
+      "type": "contemporaneous-report",
+      "note": "Channel 4 News, 21 May 2011, quoting Camping's January 2011 statement."
+    },
+    "deadline": {
+      "stated": true,
+      "text": "May 21, 2011",
+      "date": "2011-05-21"
+    },
+    "domain": "other",
+    "tags": [
+      "apocalypse",
+      "religion"
+    ],
+    "verdict": "wrong",
+    "resolution": {
+      "summary": "Nothing occurred. Camping moved the date to 21 October 2011, then wrote in March 2012 that attempting to predict the date had been a mistake.",
+      "resolved_date": "2011-05-22",
+      "source_url": "https://abcnews.com/blogs/headlines/2012/03/harold-camping-admits-rapture-prediction-a-mistake"
+    },
+    "confidence_expressed": "beyond the shadow of a doubt",
+    "status": "verified",
+    "notes": "Included as the clearest case of a fully specified, fully falsified public prediction with a stated deadline.",
+    "added": "2026-09-15",
+    "last_reviewed": "2026-09-15"
+  },
+  {
+    "id": "dent-2011-crash-early-2012",
+    "claim": "I think the stock crash started in late April. This is just the first wave down... I think the crash really starts some time in early 2012.",
+    "context": "Central forecast of the book The Great Crash Ahead.",
+    "predictor": {
+      "name": "Harry S. Dent Jr.",
+      "role_at_time": "Founder, HS Dent; newsletter author",
+      "expertise_domain": "Demographic investment forecasting",
+      "speaking_in_own_field": true,
+      "standing": "commentator"
+    },
+    "made": "2011-09-12",
+    "venue": "CNBC interview",
+    "source": {
+      "url": "https://www.cnbc.com/2011/09/12/dow-could-crash-to-3000-in-2013-author.html",
+      "type": "contemporaneous-report",
+      "note": "CNBC, 12 Sept 2011. The headline's 'Dow to 3,000 in 2013' is CNBC's summary and is not a direct quote in the article body; the entry uses his quoted words."
+    },
+    "deadline": {
+      "stated": true,
+      "text": "early 2012",
+      "date": "2012-06-30"
+    },
+    "domain": "economics",
+    "tags": [
+      "stock-market"
+    ],
+    "verdict": "wrong",
+    "resolution": {
+      "summary": "No crash occurred. The Dow rose 7% in 2012 and 26% in 2013, closing 2013 at 16,577.",
+      "resolved_date": "2012-12-31"
+    },
+    "confidence_expressed": "will",
+    "status": "verified",
+    "added": "2026-09-15",
+    "last_reviewed": "2026-09-15",
+    "notes": "In the same interview Dent advised getting out of gold at $2,000 and said silver had peaked at $50. Gold peaked at about $1,900 that month and fell for four years; silver never regained $50 until 2025. Those two could be logged as separate, partially right entries."
+  },
+  {
+    "id": "musk-2015-complete-autonomy",
+    "claim": "We're going to end up with complete autonomy, and I think we will have complete autonomy in approximately two years.",
+    "context": "Interview with Fortune.",
+    "predictor": {
+      "name": "Elon Musk",
+      "role_at_time": "CEO, Tesla",
+      "expertise_domain": "Automotive and aerospace engineering business",
+      "speaking_in_own_field": true,
+      "standing": "practitioner"
+    },
+    "made": "2015-12-21",
+    "venue": "Fortune",
+    "source": {
+      "url": "https://fortune.com/2015/12/21/elon-musk-interview/",
+      "type": "contemporaneous-report"
+    },
+    "deadline": {
+      "stated": true,
+      "text": "approximately two years",
+      "date": "2017-12"
+    },
+    "domain": "technology",
+    "tags": [
+      "self-driving",
+      "timelines"
+    ],
+    "verdict": "wrong",
+    "resolution": {
+      "summary": "No Tesla offered driving without supervision by end of 2017. Tesla's Full Self-Driving remained classified as requiring an attentive driver through 2025.",
+      "resolved_date": "2017-12",
+      "source_url": "https://www.tesla.com/support/autopilot"
+    },
+    "confidence_expressed": "I think we will",
+    "status": "verified",
+    "notes": "One of a series. Later restatements (2016 coast-to-coast drive by end of 2017; 2019 one million robotaxis by 2020) are candidates for separate entries.",
+    "added": "2026-09-15",
+    "last_reviewed": "2026-09-15"
+  },
+  {
+    "id": "carney-2016-brexit-recession",
+    "claim": "Material slowdown in growth, notable increase in inflation. That's the MPC's judgement. [...] Now of course there's a range of possible scenarios around those directions, which could possibly include a technical recession — could possibly include that. We haven't done a formal forecast.",
+    "context": "Press conference for the May 2016 Inflation Report, before the referendum.",
+    "predictor": {
+      "name": "Mark Carney",
+      "role_at_time": "Governor, Bank of England",
+      "expertise_domain": "Central banking",
+      "speaking_in_own_field": true,
+      "standing": "official"
+    },
+    "made": "2016-05-12",
+    "venue": "Bank of England Inflation Report press conference",
+    "source": {
+      "url": "https://www.bankofengland.co.uk/-/media/boe/files/inflation-report/2016/press-conference-transcript-may-2016.pdf",
+      "type": "primary",
+      "note": "Inflation Report press conference Q&A transcript, 12 May 2016, answering Chris Giles (FT)."
+    },
+    "deadline": {
+      "stated": false,
+      "text": "following a vote to leave"
+    },
+    "domain": "economics",
+    "tags": [
+      "brexit",
+      "recession"
+    ],
+    "verdict": "partially-right",
+    "resolution": {
+      "summary": "After the June 2016 vote, sterling fell about 10% and CPI inflation rose from 0.5% to 3.0% by late 2017. GDP growth slowed only mildly (1.9% in 2016, 1.7% in 2017) and no quarter contracted.",
+      "resolved_date": "2017-12",
+      "source_url": "https://www.bankofengland.co.uk/-/media/boe/files/speech/2017/ten-months-after-the-eu-referendum-how-is-the-economy-doing.pdf"
+    },
+    "confidence_expressed": "could possibly",
+    "status": "verified",
+    "notes": "Inflation call resolved right; growth slowdown was marginal; the hedged recession scenario did not occur. Scored on the MPC judgement as stated, not on the more definite paraphrases that circulated.",
+    "added": "2026-09-15",
+    "last_reviewed": "2026-09-15"
+  },
+  {
+    "id": "wang-2016-clinton-99",
+    "claim": "It is totally over. If Trump wins more than 240 electoral votes, I will eat a bug.",
+    "context": "Tweet; the Princeton Election Consortium model put Clinton's win probability at 99%.",
+    "predictor": {
+      "name": "Sam Wang",
+      "role_at_time": "Professor of Neuroscience, Princeton; founder, Princeton Election Consortium",
+      "expertise_domain": "Neuroscience; election modelling",
+      "speaking_in_own_field": false,
+      "standing": "researcher"
+    },
+    "made": "2016-10-18",
+    "venue": "Twitter",
+    "source": {
+      "url": "https://www.upi.com/Odd_News/2016/11/14/Polling-expert-makes-good-on-pre-election-promise-to-eat-a-bug/6551479145169/",
+      "type": "contemporaneous-report",
+      "archive_url": "https://edition.cnn.com/2016/11/12/politics/pollster-eats-bug-after-donald-trump-win/index.html",
+      "note": "Tweet of 18 Oct 2016 reported by UPI, CNN and The Hill. Add the tweet URL and an archive snapshot."
+    },
+    "deadline": {
+      "stated": true,
+      "text": "November 8, 2016",
+      "date": "2016-11-08"
+    },
+    "domain": "geopolitics",
+    "tags": [
+      "elections",
+      "probability"
+    ],
+    "verdict": "wrong",
+    "resolution": {
+      "summary": "Trump won 304 electoral votes. Wang ate a cricket on CNN on 12 November 2016.",
+      "resolved_date": "2016-11-09",
+      "source_url": "https://www.cnn.com/2016/11/12/politics/pollster-eats-bug-after-donald-trump-win"
+    },
+    "confidence_expressed": "99%; totally over",
+    "status": "verified",
+    "added": "2026-09-15",
+    "last_reviewed": "2026-09-15"
+  },
+  {
+    "id": "fivethirtyeight-2016-clinton-71",
+    "claim": "Clinton 71%, Trump 29% (final forecast, 8 November 2016).",
+    "context": "Final FiveThirtyEight forecast on election day. Included as a contrast case: a probabilistic forecast that assigned the actual outcome a substantial chance.",
+    "predictor": {
+      "name": "Nate Silver / FiveThirtyEight",
+      "role_at_time": "Editor-in-chief, FiveThirtyEight",
+      "expertise_domain": "Statistical forecasting",
+      "speaking_in_own_field": true,
+      "standing": "commentator"
+    },
+    "made": "2016-11-08",
+    "venue": "FiveThirtyEight",
+    "source": {
+      "url": "https://www.independent.co.uk/news/world/americas/us-elections/final-forecast-nate-silver-538-clinton-chances-of-victory-71-a7405881.html",
+      "type": "contemporaneous-report",
+      "archive_url": "https://projects.fivethirtyeight.com/2016-election-forecast/",
+      "note": "Original forecast page now redirects; The Independent reported the final figure on election day."
+    },
+    "deadline": {
+      "stated": true,
+      "text": "November 8, 2016",
+      "date": "2016-11-08"
+    },
+    "domain": "geopolitics",
+    "tags": [
+      "elections",
+      "probability"
+    ],
+    "verdict": "unfalsifiable",
+    "resolution": {
+      "summary": "Trump won. A single outcome cannot score a 29% probability as right or wrong; the forecast can only be judged as part of a calibrated series.",
+      "resolved_date": "2016-11-09"
+    },
+    "confidence_expressed": "71%",
+    "status": "verified",
+    "notes": "Kept alongside the Wang entry to show the difference between a calibrated probability and a certainty. Verdict 'unfalsifiable' here means 'not scoreable from one event', not 'meaningless'.",
+    "added": "2026-09-15",
+    "last_reviewed": "2026-09-15"
+  },
+  {
+    "id": "hinton-2016-radiologists",
+    "claim": "People should stop training radiologists now. It's just completely obvious that within five years deep learning is going to do better than radiologists. It might be ten years, but we've got plenty of radiologists already.",
+    "context": "On stage at the Machine Learning and the Market for Intelligence conference, Creative Destruction Lab, Toronto.",
+    "predictor": {
+      "name": "Geoffrey Hinton",
+      "role_at_time": "Professor, University of Toronto; Engineering Fellow, Google",
+      "expertise_domain": "Deep learning",
+      "speaking_in_own_field": true,
+      "standing": "researcher"
+    },
+    "made": "2016-10",
+    "venue": "Creative Destruction Lab conference, Toronto",
+    "source": {
+      "url": "https://www.youtube.com/watch?v=2HMPRXstSvQ",
+      "type": "primary"
+    },
+    "deadline": {
+      "stated": true,
+      "text": "within five years",
+      "date": "2021"
+    },
+    "domain": "ai",
+    "tags": [
+      "medicine",
+      "jobs"
+    ],
+    "verdict": "wrong",
+    "resolution": {
+      "summary": "In 2021 no health system had replaced radiologists with deep learning. US radiology residency positions and salaries rose through 2026. Hinton told the New York Times in 2025 that he had spoken too broadly.",
+      "resolved_date": "2021",
+      "source_url": "https://www.auntminnie.com/imaging-informatics/artificial-intelligence/article/15746014/hinton-acknowledges-mistake-in-predicting-ai-replacement-of-radiologists"
+    },
+    "confidence_expressed": "completely obvious",
+    "status": "verified",
+    "notes": "The ten-year fallback expires in 2026 and, on current evidence, also fails.",
+    "added": "2026-09-15",
+    "last_reviewed": "2026-09-15"
+  },
+  {
+    "id": "mcafee-2017-bitcoin-million",
+    "claim": "When I predicted Bitcoin at $500,000 by the end of 2020, it used a model that predicted $5,000 at the end of 2017. BTC has accelerated much faster than my model assumptions. I now predict Bircoin at $1 million by the end of 2020. I will still eat my dick if wrong.",
+    "context": "Tweet, revising a July 2017 prediction.",
+    "predictor": {
+      "name": "John McAfee",
+      "role_at_time": "Founder of McAfee Associates; cryptocurrency promoter",
+      "expertise_domain": "Antivirus software",
+      "speaking_in_own_field": false,
+      "standing": "commentator"
+    },
+    "made": "2017-11-29",
+    "venue": "Twitter",
+    "source": {
+      "url": "https://twitter.com/officialmcafee/status/935900326007328768",
+      "type": "social-post",
+      "note": "Tweet ID 935900326007328768, 29 Nov 2017, text confirmed by maintainer. 'Bircoin' is the original spelling. Add a Wayback snapshot."
+    },
+    "deadline": {
+      "stated": true,
+      "text": "by the end of 2020",
+      "date": "2020-12-31"
+    },
+    "domain": "economics",
+    "tags": [
+      "crypto",
+      "wager"
+    ],
+    "verdict": "wrong",
+    "resolution": {
+      "summary": "Bitcoin closed 2020 at about $29,000. McAfee said in January 2020 that the prediction had been a ruse to attract new users.",
+      "resolved_date": "2020-12-31",
+      "source_url": "https://www.newsbtc.com/news/why-mcafee-backed-1-million-bitcoin-2020-prediction/"
+    },
+    "confidence_expressed": "I now predict",
+    "status": "verified",
+    "added": "2026-09-15",
+    "last_reviewed": "2026-09-15"
+  },
+  {
+    "id": "ord-2020-precipice-ai",
+    "claim": "Unaligned artificial intelligence: ~1 in 10 chance of existential catastrophe within the next 100 years. (Engineered pandemics ~1 in 30; nuclear war ~1 in 1,000; climate change ~1 in 1,000; asteroid impact ~1 in 1,000,000. Total ~1 in 6.)",
+    "context": "Table 6.1 of The Precipice. Ord describes the figures as order-of-magnitude judgements, not calculations.",
+    "predictor": {
+      "name": "Toby Ord",
+      "role_at_time": "Senior Research Fellow, Future of Humanity Institute, Oxford",
+      "expertise_domain": "Moral philosophy",
+      "speaking_in_own_field": false,
+      "standing": "researcher"
+    },
+    "made": "2020-03",
+    "venue": "Book: The Precipice (Bloomsbury)",
+    "source": {
+      "url": "https://www.tobyord.com/writing/the-precipice-revisited",
+      "type": "primary",
+      "note": "Author's own 2024 restatement of the table with directional updates."
+    },
+    "deadline": {
+      "stated": true,
+      "text": "next 100 years",
+      "date": "2120"
+    },
+    "domain": "ai",
+    "tags": [
+      "existential-risk",
+      "probability"
+    ],
+    "verdict": "unfalsifiable",
+    "resolution": {
+      "summary": "Cannot be resolved. If the event occurs there is no one to score it; if it does not, a 10% estimate is consistent with that outcome. There is no reference class of prior extinctions to calibrate against."
+    },
+    "confidence_expressed": "~1 in 10",
+    "status": "verified",
+    "notes": "Ord is more careful than most who repeat the number: he gives comparators and states the figures are judgements. Included because the '10%' headline figure derives from here and from the 2022 AI Impacts survey median. Anchor entry for the base-rate page.",
+    "added": "2026-09-15",
+    "last_reviewed": "2026-09-15"
+  },
+  {
+    "id": "degrey-2021-longevity-escape-velocity",
+    "claim": "I now think there is a 50% chance that we will reach longevity escape velocity by 2036. After that point (the \"Methuselarity\"), those who regularly receive the latest rejuvenation therapies will never suffer from age-related ill-health at any age.",
+    "context": "Tweet.",
+    "predictor": {
+      "name": "Aubrey de Grey",
+      "role_at_time": "Chief Science Officer, SENS Research Foundation",
+      "expertise_domain": "Biogerontology (self-taught; PhD Cambridge)",
+      "speaking_in_own_field": true,
+      "standing": "researcher",
+      "audience_at_time": "Approx. 50,000 Twitter followers (to confirm)"
+    },
+    "made": "2021-03-14",
+    "venue": "Twitter",
+    "source": {
+      "url": "https://x.com/aubreydegrey/status/1371196809595346950",
+      "type": "social-post",
+      "note": "Tweet located; Longevity.Technology reported it on 23 March 2021. Add a Wayback snapshot.",
+      "archive_url": "https://longevity.technology/news/longevity-escape-velocity-by-2035-and-it-will-be-free/"
+    },
+    "deadline": {
+      "stated": true,
+      "text": "by 2036",
+      "date": "2036-12-31"
+    },
+    "domain": "medicine",
+    "tags": [
+      "ageing",
+      "probability"
+    ],
+    "verdict": "not-yet-due",
+    "confidence_expressed": "50% chance",
+    "status": "verified",
+    "notes": "De Grey has given similar horizons since about 2004 ('the first person to live to 1,000 is probably alive today'). Earlier versions should be logged as separate entries to show the moving deadline.",
+    "added": "2026-09-15",
+    "last_reviewed": "2026-09-15"
+  },
+  {
+    "id": "altman-2025-reflections-agents",
+    "claim": "We are now confident we know how to build AGI as we have traditionally understood it. [...] We believe that, in 2025, we may see the first AI agents 'join the workforce' and materially change the output of companies.",
+    "context": "Personal blog post 'Reflections'.",
+    "predictor": {
+      "name": "Sam Altman",
+      "role_at_time": "CEO, OpenAI",
+      "expertise_domain": "AI company leadership",
+      "speaking_in_own_field": true,
+      "standing": "practitioner"
+    },
+    "made": "2025-01-06",
+    "venue": "blog.samaltman.com",
+    "source": {
+      "url": "https://blog.samaltman.com/reflections",
+      "type": "primary"
+    },
+    "deadline": {
+      "stated": true,
+      "text": "in 2025",
+      "date": "2025-12-31"
+    },
+    "domain": "ai",
+    "tags": [
+      "agi",
+      "agents",
+      "jobs"
+    ],
+    "verdict": "unfalsifiable",
+    "resolution": {
+      "summary": "'May see', 'join the workforce' in quotation marks, and 'materially change' have no stated measure. Agent products shipped in 2025; whether they materially changed company output is not defined.",
+      "resolved_date": "2025-12-31"
+    },
+    "confidence_expressed": "confident; may see",
+    "status": "verified",
+    "notes": "Example of a dated claim written so that no outcome could contradict it.",
+    "added": "2026-09-15",
+    "last_reviewed": "2026-09-15"
+  },
+  {
+    "id": "amodei-2025-ninety-percent-code",
+    "claim": "I think we'll be there in three to six months, where AI is writing 90 percent of the code. And then in twelve months, we may be in a world where AI is writing essentially all of the code.",
+    "context": "On-stage conversation at the Council on Foreign Relations.",
+    "predictor": {
+      "name": "Dario Amodei",
+      "role_at_time": "CEO, Anthropic",
+      "expertise_domain": "AI research and company leadership",
+      "speaking_in_own_field": true,
+      "standing": "practitioner"
+    },
+    "made": "2025-03-10",
+    "venue": "Council on Foreign Relations, Washington",
+    "source": {
+      "url": "https://www.cfr.org/event/ceo-speaker-series-dario-amodei-anthropic",
+      "type": "primary",
+      "note": "CFR video and transcript, 10 March 2025."
+    },
+    "deadline": {
+      "stated": true,
+      "text": "three to six months; 12 months",
+      "date": "2026-03-10"
+    },
+    "domain": "ai",
+    "tags": [
+      "software",
+      "jobs"
+    ],
+    "verdict": "unresolved",
+    "resolution": {
+      "summary": "Both deadlines have passed. No agreed industry-wide measure of the share of code written by AI exists; company self-reports range widely. Needs a defined metric and source before scoring."
+    },
+    "confidence_expressed": "I think we will be there",
+    "status": "verified",
+    "notes": "This dataset was compiled with an Anthropic model. Flagged for independent review.",
+    "added": "2026-09-15",
+    "last_reviewed": "2026-09-15"
+  },
+  {
+    "id": "amodei-2025-white-collar-jobs",
+    "claim": "Cancer is cured, the economy grows at 10% a year, the budget is balanced — and 20% of people don't have jobs. [...] It's going to happen in a small amount of time — as little as a couple of years or less.",
+    "context": "Interview with Axios. The widely reported figures ('half of all entry-level white-collar jobs', 'unemployment to 10-20% in the next one to five years') are Axios's summary of the interview and are not inside quotation marks. The first quoted sentence is presented by Axios as 'one very possible scenario'; the second refers to company AI use tipping from augmentation to automation.",
+    "predictor": {
+      "name": "Dario Amodei",
+      "role_at_time": "CEO, Anthropic",
+      "expertise_domain": "AI research and company leadership",
+      "speaking_in_own_field": false,
+      "standing": "practitioner"
+    },
+    "made": "2025-05-28",
+    "venue": "Axios",
+    "source": {
+      "url": "https://www.axios.com/2025/05/28/ai-jobs-white-collar-unemployment-anthropic",
+      "type": "contemporaneous-report",
+      "note": "Article text checked by maintainer. Only sentences inside quotation marks are used in the claim."
+    },
+    "deadline": {
+      "stated": true,
+      "text": "as little as a couple of years or less",
+      "date": "2027-05"
+    },
+    "domain": "ai",
+    "tags": [
+      "jobs",
+      "unemployment"
+    ],
+    "verdict": "not-yet-due",
+    "confidence_expressed": "one very possible scenario; it's going to happen",
+    "status": "verified",
+    "notes": "The numerical headline claim is Axios's paraphrase and is not scored. Amodei repeated similar figures on the record in broadcast interviews the following days (e.g. CNN, 29 May 2025); if a transcript confirms his own wording, add that as a separate dated entry with the 10-20% figure. This dataset was compiled with an Anthropic model. Flagged for independent review.",
+    "added": "2026-09-15",
+    "last_reviewed": "2026-09-15"
+  },
+  {
+    "id": "watson-1943-five-computers",
+    "claim": "I think there is a world market for maybe five computers.",
+    "predictor": {
+      "name": "Thomas J. Watson Sr.",
+      "role_at_time": "Chairman, IBM",
+      "standing": "practitioner"
+    },
+    "made": "1943",
+    "source": {
+      "url": "https://freakonomics.com/2008/04/our-daily-bleg-did-ibm-really-see-a-world-market-for-about-five-computers/",
+      "type": "secondary"
+    },
+    "deadline": {
+      "stated": false
+    },
+    "domain": "technology",
+    "verdict": "wrong",
+    "status": "rejected",
+    "rejection_reason": "misattributed",
+    "notes": "No speech, document or contemporaneous report contains it. Earliest trace is a 1986 Usenet signature. IBM suggests a garbled version of remarks at the 1953 stockholders' meeting about the IBM 701, where Watson said they expected 5 orders and received 18.",
+    "added": "2026-09-15",
+    "last_reviewed": "2026-09-15"
+  },
+  {
+    "id": "gates-1981-640k",
+    "claim": "640K ought to be enough for anybody.",
+    "predictor": {
+      "name": "Bill Gates",
+      "role_at_time": "CEO, Microsoft",
+      "standing": "practitioner"
+    },
+    "made": "1981",
+    "source": {
+      "url": "https://quoteinvestigator.com/2011/09/08/640k-enough/",
+      "type": "secondary"
+    },
+    "deadline": {
+      "stated": false
+    },
+    "domain": "technology",
+    "verdict": "wrong",
+    "status": "rejected",
+    "rejection_reason": "unverifiable",
+    "notes": "Gates has denied it repeatedly since 1996. The Yale Book of Quotations editor could not find a source. First citation appears in 1985.",
+    "added": "2026-09-15",
+    "last_reviewed": "2026-09-15"
+  },
+  {
+    "id": "zanuck-1946-plywood-box",
+    "claim": "Television won't be able to hold on to any market it captures after the first six months. People will soon get tired of staring at a plywood box every night.",
+    "predictor": {
+      "name": "Darryl F. Zanuck",
+      "role_at_time": "Head of production, 20th Century Fox",
+      "standing": "practitioner"
+    },
+    "made": "1946",
+    "source": {
+      "url": "https://quoteinvestigator.com/2019/11/27/plywood/",
+      "type": "secondary"
+    },
+    "deadline": {
+      "stated": false
+    },
+    "domain": "technology",
+    "verdict": "wrong",
+    "status": "rejected",
+    "rejection_reason": "misattributed",
+    "notes": "The plywood line was printed by the Wall Street Journal in 1951 and attributed to an unnamed 'San Franciscan'. The Zanuck attribution first appears in a 1981 book of lists.",
+    "added": "2026-09-15",
+    "last_reviewed": "2026-09-15"
+  },
+  {
+    "id": "kelvin-1895-impossible",
+    "claim": "Heavier-than-air flying machines are impossible.",
+    "predictor": {
+      "name": "William Thomson, Lord Kelvin",
+      "role_at_time": "President of the Royal Society",
+      "standing": "researcher"
+    },
+    "made": "1895",
+    "source": {
+      "url": "https://en.wikiquote.org/wiki/William_Thomson",
+      "type": "secondary"
+    },
+    "deadline": {
+      "stated": false
+    },
+    "domain": "technology",
+    "verdict": "wrong",
+    "status": "rejected",
+    "rejection_reason": "unverifiable",
+    "notes": "No primary source. A documented 1896 letter expresses the same view in different words and is listed as a verified entry instead.",
+    "added": "2026-09-15",
+    "last_reviewed": "2026-09-15"
+  },
+  {
+    "id": "popular-mechanics-1949-1-5-tons",
+    "claim": "Where a calculator on the ENIAC is equipped with 18,000 vacuum tubes and weighs 30 tons, computers in the future may have only 1,000 vacuum tubes and weigh only 1.5 tons.",
+    "predictor": {
+      "name": "Popular Mechanics (Andrew Hamilton)",
+      "role_at_time": "Magazine feature",
+      "standing": "publication"
+    },
+    "made": "1949-03",
+    "source": {
+      "url": "https://www.computinghistory.org.uk/pages/3974/",
+      "type": "secondary"
+    },
+    "deadline": {
+      "stated": false
+    },
+    "domain": "technology",
+    "verdict": "right",
+    "status": "rejected",
+    "rejection_reason": "out of context",
+    "notes": "Often listed as a failed prediction. The full sentence predicts computers will get dramatically smaller, which they did. Not a wrong prediction; excluded from the main list but kept as a documented misuse.",
+    "added": "2026-09-15",
+    "last_reviewed": "2026-09-15"
+  }
+]
