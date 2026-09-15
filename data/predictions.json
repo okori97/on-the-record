@@ -1784,5 +1784,854 @@
     "notes": "Often listed as a failed prediction. The full sentence predicts computers will get dramatically smaller, which they did. Not a wrong prediction; excluded from the main list but kept as a documented misuse.",
     "added": "2026-09-15",
     "last_reviewed": "2026-09-15"
+  },
+  {
+    "id": "simmons-2005-oil-200-bet",
+    "claim": "The price of oil averaged over the entire calendar year of 2010 will be at least $200 per barrel, in 2005 dollars.",
+    "context": "Terms of a $10,000 wager with New York Times columnist John Tierney and Rita Simon, made public in Tierney's column 'The $10,000 Question'. The wording above is the bet's terms as recorded, not a spoken quote.",
+    "predictor": {
+      "name": "Matthew Simmons",
+      "role_at_time": "Chairman, Simmons & Company International; author of Twilight in the Desert",
+      "expertise_domain": "Energy investment banking",
+      "speaking_in_own_field": true,
+      "standing": "practitioner"
+    },
+    "made": "2005-08-23",
+    "venue": "Public wager, New York Times",
+    "source": {
+      "url": "https://en.wikipedia.org/wiki/Simmons%E2%80%93Tierney_bet",
+      "type": "secondary",
+      "note": "Cites Tierney, NYT, 23 Aug 2005 and 27 Dec 2010. Paywalled originals not opened."
+    },
+    "deadline": {
+      "stated": true,
+      "text": "calendar year 2010",
+      "date": "2010-12-31"
+    },
+    "domain": "energy",
+    "tags": [
+      "oil",
+      "peak-oil",
+      "wager"
+    ],
+    "verdict": "wrong",
+    "resolution": {
+      "summary": "Oil averaged about $80 a barrel in 2010, roughly $71 in 2005 dollars. Simmons died in August 2010; his estate paid the bet.",
+      "resolved_date": "2011-01-01",
+      "source_url": "https://www.eia.gov/dnav/pet/hist/RWTCa.htm"
+    },
+    "confidence_expressed": "$5,000 wager",
+    "status": "verified",
+    "added": "2026-09-15",
+    "last_reviewed": "2026-09-15"
+  },
+  {
+    "id": "gore-2009-ice-free-arctic",
+    "claim": "Some of the models suggest to Dr. Maslowski that there is a 75% chance that the entire north polar ice cap, during some of the summer months, could be completely ice-free within the next five to seven years.",
+    "context": "Speech at the Copenhagen climate conference. Wieslaw Maslowski said the next day he did not know how the figure was arrived at and would never estimate likelihood that exactly.",
+    "predictor": {
+      "name": "Al Gore",
+      "role_at_time": "Former US Vice President; Nobel Peace laureate; climate campaigner",
+      "expertise_domain": "Politics",
+      "speaking_in_own_field": false,
+      "standing": "commentator"
+    },
+    "made": "2009-12-14",
+    "venue": "COP15, Copenhagen",
+    "source": {
+      "url": "https://politifact.com/factchecks/2021/mar/02/facebook-posts/fact-checking-claims-al-gore-said-all-arctic-ice-w/",
+      "archive_url": "https://www.npr.org/sections/thetwo-way/2009/12/al_gore_trips_on_artic_ice_mis.html",
+      "type": "contemporaneous-report",
+      "note": "PolitiFact reproduces the speech wording; NPR reported it at the time."
+    },
+    "deadline": {
+      "stated": true,
+      "text": "within the next five to seven years",
+      "date": "2016-12"
+    },
+    "domain": "climate",
+    "tags": [
+      "arctic",
+      "probability"
+    ],
+    "verdict": "wrong",
+    "resolution": {
+      "summary": "Arctic summer sea ice reached a record low of 3.4 million km² in September 2012 and has not approached ice-free in any year since.",
+      "resolved_date": "2016-09",
+      "source_url": "https://nsidc.org/sea-ice-today"
+    },
+    "confidence_expressed": "75% chance (attributed to a model)",
+    "status": "verified",
+    "notes": "Gore attributed the figure to a scientist who then disowned it. Recorded because he said it publicly with a number and a horizon.",
+    "added": "2026-09-15",
+    "last_reviewed": "2026-09-15"
+  },
+  {
+    "id": "whitney-2010-municipal-defaults",
+    "claim": "You could see 50 sizeable defaults. Fifty to 100 sizeable defaults. More. This will amount to hundreds of billions of dollars' worth of defaults. [...] It'll be something to worry about within the next 12 months.",
+    "context": "Interview with Steve Kroft in the segment 'State Budgets: The Day of Reckoning'.",
+    "predictor": {
+      "name": "Meredith Whitney",
+      "role_at_time": "CEO, Meredith Whitney Advisory Group; analyst known for a 2007 Citigroup call",
+      "expertise_domain": "Bank equity research",
+      "speaking_in_own_field": false,
+      "standing": "commentator"
+    },
+    "made": "2010-12-19",
+    "venue": "CBS, 60 Minutes",
+    "source": {
+      "url": "https://www.cbsnews.com/news/state-budgets-the-day-of-reckoning",
+      "type": "primary"
+    },
+    "deadline": {
+      "stated": true,
+      "text": "within the next 12 months",
+      "date": "2011-12-19"
+    },
+    "domain": "economics",
+    "tags": [
+      "bonds",
+      "municipal"
+    ],
+    "verdict": "wrong",
+    "resolution": {
+      "summary": "Municipal defaults in 2011 totalled a few billion dollars across a handful of issuers. Investors withdrew about $25bn from muni funds after the broadcast; the market then rallied.",
+      "resolved_date": "2011-12-19",
+      "source_url": "https://www.bloomberg.com/opinion/articles/2018-10-30/meredith-whitney-was-flat-out-wrong-about-municipal-bonds"
+    },
+    "confidence_expressed": "you could see",
+    "status": "verified",
+    "added": "2026-09-15",
+    "last_reviewed": "2026-09-15"
+  },
+  {
+    "id": "krugman-2016-markets-never-recover",
+    "claim": "It really does now look like President Donald J. Trump, and markets are plunging. When might we expect them to recover? [...] If the question is when markets will recover, a first-pass answer is never.",
+    "context": "Blog post 'The Economic Fallout' on election night. Krugman wrote the next day that he was having second thoughts about the short-run call.",
+    "predictor": {
+      "name": "Paul Krugman",
+      "role_at_time": "Columnist, New York Times; Nobel laureate in economics",
+      "expertise_domain": "International economics",
+      "speaking_in_own_field": true,
+      "standing": "researcher"
+    },
+    "made": "2016-11-09",
+    "venue": "New York Times",
+    "source": {
+      "url": "https://www.nytimes.com/interactive/projects/cp/opinion/election-night-2016/paul-krugman-the-economic-fallout",
+      "type": "primary",
+      "note": "NYT blocks automated fetching. Wording from multiple same-week reports; open the original to confirm."
+    },
+    "deadline": {
+      "stated": false
+    },
+    "domain": "economics",
+    "tags": [
+      "stock-market",
+      "elections"
+    ],
+    "verdict": "wrong",
+    "resolution": {
+      "summary": "S&P 500 futures recovered overnight; the index closed at a record high on 10 November 2016 and rose about 19% over the following year.",
+      "resolved_date": "2016-11-10",
+      "source_url": "https://fred.stlouisfed.org/series/SP500"
+    },
+    "confidence_expressed": "a first-pass answer is never",
+    "status": "needs-verification",
+    "notes": "Withdrawn by the predictor within a day. Included because it was published under his name with an absolute claim.",
+    "added": "2026-09-15",
+    "last_reviewed": "2026-09-15"
+  },
+  {
+    "id": "treasury-2016-brexit-recession",
+    "claim": "The effect of this profound shock would be to push the UK into recession [...] unemployment would increase by around 500,000, with all regions experiencing a rise.",
+    "context": "HM Treasury analysis 'The immediate economic impact of leaving the EU', published one month before the referendum. Osborne presented it as the central 'shock' scenario.",
+    "predictor": {
+      "name": "HM Treasury (George Osborne, Chancellor)",
+      "role_at_time": "UK finance ministry; Chancellor of the Exchequer",
+      "expertise_domain": "Economic policy",
+      "speaking_in_own_field": true,
+      "standing": "official"
+    },
+    "made": "2016-05-23",
+    "venue": "HM Treasury publication",
+    "source": {
+      "url": "https://www.gov.uk/government/publications/hm-treasury-analysis-the-immediate-economic-impact-of-leaving-the-eu",
+      "archive_url": "https://www.gov.uk/government/news/britain-to-enter-recession-with-500000-uk-jobs-lost-if-it-left-eu-new-treasury-analysis-shows",
+      "type": "primary"
+    },
+    "deadline": {
+      "stated": true,
+      "text": "in the two years following a vote to leave",
+      "date": "2018-06"
+    },
+    "domain": "economics",
+    "tags": [
+      "brexit",
+      "recession"
+    ],
+    "verdict": "wrong",
+    "resolution": {
+      "summary": "No recession followed the June 2016 vote. UK unemployment fell from 4.9% to 4.0% by mid-2018. Growth slowed relative to peers and sterling fell about 10%.",
+      "resolved_date": "2018-06",
+      "source_url": "https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/timeseries/mgsx/lms"
+    },
+    "confidence_expressed": "would",
+    "status": "verified",
+    "notes": "Longer-run Treasury estimates of lost output are a separate claim and not scored here.",
+    "added": "2026-09-15",
+    "last_reviewed": "2026-09-15"
+  },
+  {
+    "id": "dimon-2017-bitcoin-fraud",
+    "claim": "It's a fraud. [...] It's worse than tulip bulbs. It won't end well. Someone is going to get killed. [...] Eventually it will be closed.",
+    "context": "Remarks at a Barclays banking conference and later the same day at the Delivering Alpha conference in New York.",
+    "predictor": {
+      "name": "Jamie Dimon",
+      "role_at_time": "Chairman and CEO, JPMorgan Chase",
+      "expertise_domain": "Banking",
+      "speaking_in_own_field": true,
+      "standing": "practitioner"
+    },
+    "made": "2017-09-12",
+    "venue": "Barclays conference; Delivering Alpha, New York",
+    "source": {
+      "url": "https://money.cnn.com/2017/09/12/investing/jamie-dimon-bitcoin",
+      "archive_url": "https://www.cnbc.com/2017/09/12/jpmorgan-ceo-jamie-dimon-raises-flag-on-trading-revenue-sees-20-percent-fall-for-the-third-quarter.html",
+      "type": "contemporaneous-report",
+      "note": "Both outlets blocked automated fetching; open one to confirm wording."
+    },
+    "deadline": {
+      "stated": false,
+      "text": "eventually"
+    },
+    "domain": "economics",
+    "tags": [
+      "crypto"
+    ],
+    "verdict": "unfalsifiable",
+    "resolution": {
+      "summary": "No deadline. Bitcoin traded at about $4,000 that day and above $100,000 in 2025. JPMorgan later gave clients access to bitcoin funds. Dimon said in January 2018 he regretted the word 'fraud'.",
+      "resolved_date": "2026"
+    },
+    "confidence_expressed": "it won't end well",
+    "status": "needs-verification",
+    "added": "2026-09-15",
+    "last_reviewed": "2026-09-15"
+  },
+  {
+    "id": "draper-2018-bitcoin-250k",
+    "claim": "I'm thinking $250,000 a bitcoin by 2022. Believe it. They're going to think you're crazy, but believe it.",
+    "context": "Remarks at the Draper Block(chain) Party, Draper University, San Mateo. Draper confirmed the figure on Twitter the next day.",
+    "predictor": {
+      "name": "Tim Draper",
+      "role_at_time": "Venture capitalist, Draper Associates; early bitcoin buyer",
+      "expertise_domain": "Venture capital",
+      "speaking_in_own_field": true,
+      "standing": "practitioner"
+    },
+    "made": "2018-04-12",
+    "venue": "Draper University event, San Mateo",
+    "source": {
+      "url": "https://www.coinspeaker.com/im-thinking-250000-bitcoin-2022-predicts-billionaire-tim-draper/",
+      "archive_url": "https://www.cnbc.com/2018/04/13/tech-investor-tim-draper-predicts-bitcoin-will-reach-250000-by-2022.html",
+      "type": "contemporaneous-report"
+    },
+    "deadline": {
+      "stated": true,
+      "text": "by 2022",
+      "date": "2022-12-31"
+    },
+    "domain": "economics",
+    "tags": [
+      "crypto"
+    ],
+    "verdict": "wrong",
+    "resolution": {
+      "summary": "Bitcoin peaked near $69,000 in November 2021 and ended 2022 at about $16,500. Draper moved the target to 2023, then 2024, then 2025.",
+      "resolved_date": "2022-12-31",
+      "source_url": "https://www.coingecko.com/en/coins/bitcoin/historical_data"
+    },
+    "confidence_expressed": "believe it",
+    "status": "verified",
+    "added": "2026-09-15",
+    "last_reviewed": "2026-09-15"
+  },
+  {
+    "id": "lutz-2017-tesla-out-of-business",
+    "claim": "Tesla is going out of business. [...] At this rate they'll never get to 2019.",
+    "context": "Television interview.",
+    "predictor": {
+      "name": "Bob Lutz",
+      "role_at_time": "Former Vice Chairman, General Motors",
+      "expertise_domain": "Automotive manufacturing",
+      "speaking_in_own_field": true,
+      "standing": "practitioner"
+    },
+    "made": "2017-11-17",
+    "venue": "CNBC",
+    "source": {
+      "url": "https://www.cnbc.com/2017/11/17/tesla-is-going-out-of-business-says-former-gm-exec-bob-lutz.html",
+      "archive_url": "https://www.motorauthority.com/news/1113916_bob-lutz-tesla-is-going-out-of-business",
+      "type": "contemporaneous-report",
+      "note": "Both pages blocked automated fetching; open to confirm wording."
+    },
+    "deadline": {
+      "stated": true,
+      "text": "never get to 2019",
+      "date": "2019-01-01"
+    },
+    "domain": "technology",
+    "tags": [
+      "electric-vehicles"
+    ],
+    "verdict": "wrong",
+    "resolution": {
+      "summary": "Tesla delivered 367,500 vehicles in 2019, reported its first full-year profit in 2020, and became the world's most valuable carmaker by market value that year.",
+      "resolved_date": "2019-01-01",
+      "source_url": "https://ir.tesla.com/press-release/tesla-q4-2019-vehicle-production-deliveries"
+    },
+    "confidence_expressed": "going out of business",
+    "status": "needs-verification",
+    "added": "2026-09-15",
+    "last_reviewed": "2026-09-15"
+  },
+  {
+    "id": "musk-2019-million-robotaxis",
+    "claim": "Next year for sure, we will have over a million robotaxis on the road.",
+    "context": "Tesla Autonomy Investor Day presentation. Musk added that he was sometimes late but got things done.",
+    "predictor": {
+      "name": "Elon Musk",
+      "role_at_time": "CEO, Tesla",
+      "expertise_domain": "Automotive and aerospace engineering business",
+      "speaking_in_own_field": true,
+      "standing": "practitioner"
+    },
+    "made": "2019-04-22",
+    "venue": "Tesla Autonomy Day, Palo Alto",
+    "source": {
+      "url": "https://www.nbcnews.com/business/autos/musk-claims-tesla-will-have-1-million-robotaxis-roads-next-n997416",
+      "archive_url": "https://www.youtube.com/watch?v=Ucp0TTmvqOE",
+      "type": "contemporaneous-report",
+      "note": "Full event video on Tesla's YouTube channel."
+    },
+    "deadline": {
+      "stated": true,
+      "text": "next year",
+      "date": "2020-12-31"
+    },
+    "domain": "technology",
+    "tags": [
+      "self-driving",
+      "timelines"
+    ],
+    "verdict": "wrong",
+    "resolution": {
+      "summary": "Tesla operated no robotaxis in 2020. A supervised pilot with a few dozen vehicles began in Austin in June 2025.",
+      "resolved_date": "2020-12-31",
+      "source_url": "https://www.fastcompany.com/90677822/elon-musks-tesla-robotaxi-promise-typifies-self-driving-overexuberance"
+    },
+    "confidence_expressed": "for sure",
+    "status": "verified",
+    "added": "2026-09-15",
+    "last_reviewed": "2026-09-15"
+  },
+  {
+    "id": "trump-2020-fifteen-to-zero",
+    "claim": "And again, when you have 15 people, and the 15 within a couple of days is going to be down to close to zero, that's a pretty good job we've done.",
+    "context": "White House press conference with the Coronavirus Task Force.",
+    "predictor": {
+      "name": "Donald Trump",
+      "role_at_time": "President of the United States",
+      "expertise_domain": "Politics, real estate",
+      "speaking_in_own_field": false,
+      "standing": "official"
+    },
+    "made": "2020-02-26",
+    "venue": "White House press conference",
+    "source": {
+      "url": "https://trumpwhitehouse.archives.gov/briefings-statements/remarks-president-trump-vice-president-pence-members-coronavirus-task-force-press-conference/",
+      "type": "primary"
+    },
+    "deadline": {
+      "stated": true,
+      "text": "within a couple of days",
+      "date": "2020-03"
+    },
+    "domain": "medicine",
+    "tags": [
+      "covid-19"
+    ],
+    "verdict": "wrong",
+    "resolution": {
+      "summary": "The US recorded more than 180,000 confirmed cases by 31 March 2020 and over one million by late April.",
+      "resolved_date": "2020-03-31",
+      "source_url": "https://covid.cdc.gov/covid-data-tracker/"
+    },
+    "confidence_expressed": "is going to be",
+    "status": "verified",
+    "added": "2026-09-15",
+    "last_reviewed": "2026-09-15"
+  },
+  {
+    "id": "musk-2020-zero-cases-april",
+    "claim": "Based on current trends, probably close to zero new cases in US too by end of April.",
+    "context": "Reply on Twitter, 19 March 2020, when the US had about 10,000 confirmed cases.",
+    "predictor": {
+      "name": "Elon Musk",
+      "role_at_time": "CEO, Tesla and SpaceX",
+      "expertise_domain": "Engineering business",
+      "speaking_in_own_field": false,
+      "standing": "practitioner",
+      "audience_at_time": "About 32 million Twitter followers"
+    },
+    "made": "2020-03-19",
+    "venue": "Twitter",
+    "source": {
+      "url": "https://x.com/elonmusk/status/1240754657263144960",
+      "archive_url": "https://www.forbes.com/sites/joewalsh/2021/03/13/elon-musks-false-covid-predictions-a-timeline/",
+      "type": "social-post",
+      "note": "X blocks automated fetching. Open the post to confirm wording and add a Wayback snapshot."
+    },
+    "deadline": {
+      "stated": true,
+      "text": "by end of April",
+      "date": "2020-04-30"
+    },
+    "domain": "medicine",
+    "tags": [
+      "covid-19"
+    ],
+    "verdict": "wrong",
+    "resolution": {
+      "summary": "The US was recording roughly 25,000 to 30,000 new confirmed cases a day at the end of April 2020.",
+      "resolved_date": "2020-04-30",
+      "source_url": "https://covid.cdc.gov/covid-data-tracker/"
+    },
+    "confidence_expressed": "probably",
+    "status": "needs-verification",
+    "added": "2026-09-15",
+    "last_reviewed": "2026-09-15"
+  },
+  {
+    "id": "fomc-2021-transitory",
+    "claim": "Inflation has risen, largely reflecting transitory factors.",
+    "context": "Federal Open Market Committee statement. The word was repeated in statements through November 2021; Powell told the Senate on 30 November that it was 'a good time to retire that word'.",
+    "predictor": {
+      "name": "Federal Open Market Committee (Jerome Powell, Chair)",
+      "role_at_time": "US central bank rate-setting committee",
+      "expertise_domain": "Monetary policy",
+      "speaking_in_own_field": true,
+      "standing": "official"
+    },
+    "made": "2021-04-28",
+    "venue": "FOMC statement",
+    "source": {
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20210428a.htm",
+      "archive_url": "https://www.federalreserve.gov/newsevents/testimony/powell20211130a.htm",
+      "type": "primary"
+    },
+    "deadline": {
+      "stated": false,
+      "text": "transitory"
+    },
+    "domain": "economics",
+    "tags": [
+      "inflation"
+    ],
+    "verdict": "wrong",
+    "resolution": {
+      "summary": "US CPI inflation rose from 4.2% in April 2021 to a peak of 9.1% in June 2022 and did not return below 3% until 2024. The Fed raised rates by 5.25 points from March 2022.",
+      "resolved_date": "2022-06",
+      "source_url": "https://fred.stlouisfed.org/series/CPIAUCSL"
+    },
+    "confidence_expressed": "largely reflecting transitory factors",
+    "status": "verified",
+    "notes": "No numeric horizon was given, but the predictor itself withdrew the word seven months later, which is treated as resolution.",
+    "added": "2026-09-15",
+    "last_reviewed": "2026-09-15"
+  },
+  {
+    "id": "ark-2021-tesla-3000",
+    "claim": "ARK expects Tesla's stock price to reach $3,000 by 2025. [...] bear case of $1,500 and bull case of $4,000.",
+    "context": "ARK Invest research note and published valuation model, 19 March 2021, when Tesla traded at about $655. Wording is the report's target as reported; the note itself is on ARK's site.",
+    "predictor": {
+      "name": "ARK Invest (Cathie Wood)",
+      "role_at_time": "Asset manager; CEO and CIO",
+      "expertise_domain": "Thematic equity investing",
+      "speaking_in_own_field": true,
+      "standing": "practitioner"
+    },
+    "made": "2021-03-19",
+    "venue": "ARK Invest research note",
+    "source": {
+      "url": "https://ark-invest.com/articles/valuation-models/ark-price-target-for-tesla-2025/",
+      "archive_url": "https://www.aljazeera.com/economy/2021/3/22/tesla-jumps-6-as-ark-invest-predicts-3000-stock-price-by-2025",
+      "type": "primary",
+      "note": "ARK page not opened at compilation; Al Jazeera report confirms the $3,000 by 2025 figure."
+    },
+    "deadline": {
+      "stated": true,
+      "text": "by 2025",
+      "date": "2025-12-31"
+    },
+    "domain": "economics",
+    "tags": [
+      "stocks",
+      "electric-vehicles"
+    ],
+    "verdict": "wrong",
+    "resolution": {
+      "summary": "Adjusted for the August 2022 three-for-one split the target equals $1,000. Tesla's highest close before the end of 2025 was about $480 in December 2024.",
+      "resolved_date": "2025-12-31",
+      "source_url": "https://finance.yahoo.com/quote/TSLA/history/"
+    },
+    "confidence_expressed": "expects; base case",
+    "status": "verified",
+    "notes": "ARK issued a $2,000-by-2027 target in 2023 and $2,600-by-2029 in 2024.",
+    "added": "2026-09-15",
+    "last_reviewed": "2026-09-15"
+  },
+  {
+    "id": "zuckerberg-2022-billion-metaverse",
+    "claim": "Our Northstar is that, you know, by the end of the decade, we hope to basically get to around a billion people in the metaverse doing hundreds of dollars of commerce each.",
+    "context": "Interview with Jim Cramer on Mad Money.",
+    "predictor": {
+      "name": "Mark Zuckerberg",
+      "role_at_time": "Founder and CEO, Meta",
+      "expertise_domain": "Consumer internet",
+      "speaking_in_own_field": true,
+      "standing": "practitioner"
+    },
+    "made": "2022-06-22",
+    "venue": "CNBC, Mad Money",
+    "source": {
+      "url": "https://www.cnbc.com/2022/06/22/cnbc-exclusive-cnbc-transcript-meta-founder-chairman-ceo-mark-zuckerberg-speaks-with-cnbcs-jim-cramer-on-mad-money-today.html",
+      "type": "primary",
+      "note": "CNBC transcript; blocked automated fetching. Open to confirm wording."
+    },
+    "deadline": {
+      "stated": true,
+      "text": "by the end of the decade",
+      "date": "2030-12-31"
+    },
+    "domain": "technology",
+    "tags": [
+      "metaverse"
+    ],
+    "verdict": "not-yet-due",
+    "confidence_expressed": "we hope to",
+    "status": "needs-verification",
+    "notes": "Meta's Reality Labs division lost more than $60bn between 2020 and 2024. Scoring needs a defined measure of 'people in the metaverse'.",
+    "added": "2026-09-15",
+    "last_reviewed": "2026-09-15"
+  },
+  {
+    "id": "bloomberg-2022-recession-100",
+    "claim": "The 12-month estimate of a downturn by October 2023 hitting 100%, up from 65% for the comparable period in the previous update.",
+    "context": "Bloomberg Economics probability model by Anna Wong and Eliza Winger, reported by Bloomberg News. Wording is the report's description of the model output.",
+    "predictor": {
+      "name": "Bloomberg Economics (Anna Wong, Eliza Winger)",
+      "role_at_time": "Chief US Economist and economist, Bloomberg Economics",
+      "expertise_domain": "Macroeconomic forecasting",
+      "speaking_in_own_field": true,
+      "standing": "researcher"
+    },
+    "made": "2022-10-17",
+    "venue": "Bloomberg News",
+    "source": {
+      "url": "https://time.com/6222645/us-recession-forecast/",
+      "archive_url": "https://www.bloomberg.com/news/articles/2022-10-17/forecast-for-us-recession-within-year-hits-100-in-blow-to-biden",
+      "type": "contemporaneous-report",
+      "note": "Time syndicated the Bloomberg piece; Bloomberg original paywalled."
+    },
+    "deadline": {
+      "stated": true,
+      "text": "by October 2023",
+      "date": "2023-10-31"
+    },
+    "domain": "economics",
+    "tags": [
+      "recession",
+      "probability"
+    ],
+    "verdict": "wrong",
+    "resolution": {
+      "summary": "No recession. US GDP grew 2.9% in 2023, including a 4.9% annualised third quarter. Wong wrote in December 2023 about why the call missed.",
+      "resolved_date": "2023-10-31",
+      "source_url": "https://www.bloomberg.com/news/articles/2023-12-21/this-is-why-we-didn-t-have-a-recession-in-2023"
+    },
+    "confidence_expressed": "100%",
+    "status": "verified",
+    "notes": "A model output of 100% is scoreable in a way a 70% is not: the model left no room for the outcome that occurred.",
+    "added": "2026-09-15",
+    "last_reviewed": "2026-09-15"
+  },
+  {
+    "id": "burry-2023-sell",
+    "claim": "Sell",
+    "context": "One-word post after the S&P 500 rose 6% in January. Burry posted 'I was wrong to say sell' on 30 March 2023 and later deleted his account's history.",
+    "predictor": {
+      "name": "Michael Burry",
+      "role_at_time": "Founder, Scion Asset Management",
+      "expertise_domain": "Value investing",
+      "speaking_in_own_field": true,
+      "standing": "practitioner",
+      "audience_at_time": "About 1.4 million Twitter followers"
+    },
+    "made": "2023-01-31",
+    "venue": "Twitter",
+    "source": {
+      "url": "https://finbold.com/big-short-michael-burry-tweets-stark-warning-to-investors-for-2023/",
+      "type": "contemporaneous-report",
+      "note": "Tweet since deleted; reported the next day."
+    },
+    "deadline": {
+      "stated": false
+    },
+    "domain": "economics",
+    "tags": [
+      "stock-market"
+    ],
+    "verdict": "wrong",
+    "resolution": {
+      "summary": "The S&P 500 closed 2023 up 24% and roughly doubled from the 31 January 2023 level by 2026. Burry withdrew the call after nine weeks.",
+      "resolved_date": "2023-03-30",
+      "source_url": "https://fred.stlouisfed.org/series/SP500"
+    },
+    "confidence_expressed": "one word",
+    "status": "verified",
+    "notes": "No deadline, but the predictor's own retraction fixes the resolution.",
+    "added": "2026-09-15",
+    "last_reviewed": "2026-09-15"
+  },
+  {
+    "id": "srinivasan-2023-bitcoin-90-days",
+    "claim": "I will take that bet. You buy 1 BTC. I will send $1M USD. This is ~40:1 odds as 1 BTC is worth ~$26k. The term is 90 days.",
+    "context": "Reply accepting a wager from James Medlock, who had offered to bet $1m that the US would not enter hyperinflation. Srinivasan argued a banking crisis would push bitcoin to $1m within 90 days.",
+    "predictor": {
+      "name": "Balaji Srinivasan",
+      "role_at_time": "Former CTO, Coinbase; former general partner, Andreessen Horowitz",
+      "expertise_domain": "Technology investing",
+      "speaking_in_own_field": false,
+      "standing": "practitioner",
+      "audience_at_time": "About 800,000 Twitter followers"
+    },
+    "made": "2023-03-17",
+    "venue": "Twitter",
+    "source": {
+      "url": "https://x.com/balajis/status/1636797265317867520",
+      "archive_url": "https://www.theblock.co/post/229254/balaji-loses-1-million-bitcoin-bet-as-u-s-dollar-fails-to-collapse",
+      "type": "social-post",
+      "note": "X blocks automated fetching; wording to confirm from the post or a Wayback snapshot."
+    },
+    "deadline": {
+      "stated": true,
+      "text": "90 days",
+      "date": "2023-06-15"
+    },
+    "domain": "economics",
+    "tags": [
+      "crypto",
+      "wager",
+      "inflation"
+    ],
+    "verdict": "wrong",
+    "resolution": {
+      "summary": "Bitcoin was about $28,500 when Srinivasan conceded on 2 May 2023, paying $500,000 to Medlock and $1m to two organisations. US CPI inflation was 4.9% that month.",
+      "resolved_date": "2023-05-02",
+      "source_url": "https://www.theblock.co/post/229254/balaji-loses-1-million-bitcoin-bet-as-u-s-dollar-fails-to-collapse"
+    },
+    "confidence_expressed": "$1m wager at 40:1",
+    "status": "needs-verification",
+    "added": "2026-09-15",
+    "last_reviewed": "2026-09-15"
+  },
+  {
+    "id": "yudkowsky-2023-everyone-dies",
+    "claim": "Many researchers steeped in these issues, including myself, expect that the most likely result of building a superhumanly smart AI, under anything remotely like the current circumstances, is that literally everyone on Earth will die.",
+    "context": "Op-ed 'Pausing AI Developments Isn't Enough. We Need to Shut it All Down.'",
+    "predictor": {
+      "name": "Eliezer Yudkowsky",
+      "role_at_time": "Co-founder, Machine Intelligence Research Institute",
+      "expertise_domain": "AI alignment theory",
+      "speaking_in_own_field": true,
+      "standing": "researcher"
+    },
+    "made": "2023-03-29",
+    "venue": "Time",
+    "source": {
+      "url": "https://time.com/6266923/ai-eliezer-yudkowsky-open-letter-not-enough/",
+      "type": "primary"
+    },
+    "deadline": {
+      "stated": false
+    },
+    "domain": "ai",
+    "tags": [
+      "existential-risk"
+    ],
+    "verdict": "unfalsifiable",
+    "resolution": {
+      "summary": "Conditional on an undefined threshold ('superhumanly smart AI') with no date. Cannot be scored unless the condition is declared met and the outcome observed."
+    },
+    "confidence_expressed": "most likely result",
+    "status": "verified",
+    "added": "2026-09-15",
+    "last_reviewed": "2026-09-15"
+  },
+  {
+    "id": "musk-2024-smarter-than-any-human",
+    "claim": "My guess is that we'll have AI that is smarter than any one human probably around the end of next year.",
+    "context": "Interview on X with Nicolai Tangen, CEO of Norges Bank Investment Management. A month earlier Musk had posted that AI would 'probably be smarter than any single human next year' and 'smarter than all humans combined' by 2029.",
+    "predictor": {
+      "name": "Elon Musk",
+      "role_at_time": "CEO, Tesla and xAI; owner of X",
+      "expertise_domain": "Engineering business",
+      "speaking_in_own_field": true,
+      "standing": "practitioner"
+    },
+    "made": "2024-04-08",
+    "venue": "X audio interview",
+    "source": {
+      "url": "https://www.irishtimes.com/business/2024/04/08/elon-musk-predicts-ai-will-overtake-human-intelligence-next-year/",
+      "archive_url": "https://x.com/elonmusk/status/1767738797276451090",
+      "type": "contemporaneous-report"
+    },
+    "deadline": {
+      "stated": true,
+      "text": "around the end of next year",
+      "date": "2025-12-31"
+    },
+    "domain": "ai",
+    "tags": [
+      "agi",
+      "timelines"
+    ],
+    "verdict": "unresolved",
+    "resolution": {
+      "summary": "Deadline passed. No agreed test for 'smarter than any one human' exists; frontier models exceed humans on some benchmarks and fail on others.",
+      "resolved_date": "2025-12-31"
+    },
+    "confidence_expressed": "my guess; probably",
+    "status": "verified",
+    "added": "2026-09-15",
+    "last_reviewed": "2026-09-15"
+  },
+  {
+    "id": "hinton-2024-extinction-odds",
+    "claim": "10 to 20 per cent.",
+    "context": "Answer on BBC Radio 4's Today programme when guest editor Sajid Javid asked whether he had changed his estimate of the chance that AI leads to human extinction within 30 years. Hinton had previously said 10%.",
+    "predictor": {
+      "name": "Geoffrey Hinton",
+      "role_at_time": "Professor Emeritus, University of Toronto; Nobel laureate in physics 2024",
+      "expertise_domain": "Deep learning",
+      "speaking_in_own_field": true,
+      "standing": "researcher"
+    },
+    "made": "2024-12-27",
+    "venue": "BBC Radio 4, Today",
+    "source": {
+      "url": "https://www.theguardian.com/technology/2024/dec/27/godfather-of-ai-raises-odds-of-the-technology-wiping-out-humanity-over-next-30-years",
+      "archive_url": "https://www.bbc.co.uk/sounds/play/m0026gt0",
+      "type": "contemporaneous-report",
+      "note": "Guardian blocked automated fetching; open to confirm wording. BBC Sounds episode is the primary."
+    },
+    "deadline": {
+      "stated": true,
+      "text": "next 30 years",
+      "date": "2054"
+    },
+    "domain": "ai",
+    "tags": [
+      "existential-risk",
+      "probability"
+    ],
+    "verdict": "unfalsifiable",
+    "resolution": {
+      "summary": "An extinction probability cannot be scored from one outcome. Recorded alongside Ord (2020) as the source of the widely reported '10 to 20%' figure."
+    },
+    "confidence_expressed": "10 to 20 per cent",
+    "status": "needs-verification",
+    "added": "2026-09-15",
+    "last_reviewed": "2026-09-15"
+  },
+  {
+    "id": "zuckerberg-2025-mid-level-engineer",
+    "claim": "Probably in 2025, we at Meta, as well as the other companies that are basically working on this, are going to have an AI that can effectively be a sort of mid-level engineer that you have at your company that can write code.",
+    "context": "Interview on The Joe Rogan Experience, episode 2255.",
+    "predictor": {
+      "name": "Mark Zuckerberg",
+      "role_at_time": "Founder and CEO, Meta",
+      "expertise_domain": "Software, consumer internet",
+      "speaking_in_own_field": true,
+      "standing": "practitioner"
+    },
+    "made": "2025-01-10",
+    "venue": "The Joe Rogan Experience",
+    "source": {
+      "url": "https://www.youtube.com/watch?v=7k1ehaE0bdU",
+      "archive_url": "https://www.axios.com/2025/05/28/ai-jobs-white-collar-unemployment-anthropic",
+      "type": "primary",
+      "note": "Podcast video. Wording as quoted by Axios, 28 May 2025, checked by maintainer."
+    },
+    "deadline": {
+      "stated": true,
+      "text": "in 2025",
+      "date": "2025-12-31"
+    },
+    "domain": "ai",
+    "tags": [
+      "software",
+      "jobs"
+    ],
+    "verdict": "unresolved",
+    "resolution": {
+      "summary": "Deadline passed. 'Effectively a mid-level engineer' has no agreed test. Meta and others shipped coding agents in 2025; whether they match a mid-level engineer is disputed.",
+      "resolved_date": "2025-12-31"
+    },
+    "confidence_expressed": "probably",
+    "status": "verified",
+    "added": "2026-09-15",
+    "last_reviewed": "2026-09-15"
+  },
+  {
+    "id": "gates-2015-not-missiles-but-microbes",
+    "claim": "If anything kills over 10 million people in the next few decades, it's most likely to be a highly infectious virus rather than a war. Not missiles, but microbes. [...] We're not ready for the next epidemic.",
+    "context": "TED talk 'The next outbreak? We're not ready', Vancouver.",
+    "predictor": {
+      "name": "Bill Gates",
+      "role_at_time": "Co-chair, Bill & Melinda Gates Foundation",
+      "expertise_domain": "Global health philanthropy",
+      "speaking_in_own_field": true,
+      "standing": "practitioner"
+    },
+    "made": "2015-03-18",
+    "venue": "TED2015, Vancouver",
+    "source": {
+      "url": "https://www.rev.com/transcripts/bill-gates-ted-talk-transcript-from-2015-warns-of-pandemics-epidemics",
+      "archive_url": "https://www.ted.com/talks/bill_gates_the_next_outbreak_we_re_not_ready",
+      "type": "primary"
+    },
+    "deadline": {
+      "stated": true,
+      "text": "the next few decades",
+      "date": "2045"
+    },
+    "domain": "medicine",
+    "tags": [
+      "pandemic"
+    ],
+    "verdict": "right",
+    "resolution": {
+      "summary": "COVID-19 caused about 7 million confirmed deaths by 2023; WHO estimated excess mortality of roughly 15 million for 2020 to 2021. No war in the period approached that toll.",
+      "resolved_date": "2022-05",
+      "source_url": "https://www.who.int/news/item/05-05-2022-14.9-million-excess-deaths-were-associated-with-the-pandemic-in-2020-and-2021"
+    },
+    "confidence_expressed": "most likely",
+    "status": "verified",
+    "notes": "Hedged with 'if anything' and 'most likely', but the comparative claim (virus over war) resolved clearly.",
+    "added": "2026-09-15",
+    "last_reviewed": "2026-09-15"
   }
 ]
